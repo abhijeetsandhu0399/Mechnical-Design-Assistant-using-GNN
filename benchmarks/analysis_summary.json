@@ -1,0 +1,10 @@
+{
+  "paired_standardized_mse_difference_gnn_minus_mlp": 3.264952461822569e-05,
+  "bootstrap_95_interval": [
+    3.0031942437877952e-05,
+    3.5537881892739955e-05
+  ],
+  "bootstrap_replicates": 2000,
+  "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+  "logical_cpus": 16
+}

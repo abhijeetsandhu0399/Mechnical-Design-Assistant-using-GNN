@@ -1,0 +1,5 @@
+tensorflow==2.16.1
+tf-keras==2.16.0
+tensorflow-gnn==1.0.3
+numpy==1.26.4
+matplotlib==3.11.2

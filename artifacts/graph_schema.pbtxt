@@ -1,0 +1,47 @@
+context {
+  features {
+    key: "label"
+    value {
+      dtype: DT_FLOAT
+      shape {
+        dim {
+          size: 19
+        }
+      }
+    }
+  }
+}
+node_sets {
+  key: "bodies"
+  value {
+    features {
+      key: "features"
+      value {
+        dtype: DT_FLOAT
+        shape {
+          dim {
+            size: 7
+          }
+        }
+      }
+    }
+  }
+}
+edge_sets {
+  key: "interactions"
+  value {
+    features {
+      key: "features"
+      value {
+        dtype: DT_FLOAT
+        shape {
+          dim {
+            size: 14
+          }
+        }
+      }
+    }
+    source: "bodies"
+    target: "bodies"
+  }
+}

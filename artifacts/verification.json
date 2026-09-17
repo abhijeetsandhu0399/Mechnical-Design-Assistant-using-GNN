@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "samples": 30000,
+  "test_samples": 3000,
+  "max_checkpoint_reload_difference": 3.447535004141855e-05,
+  "checks": [
+    "split disjointness and coverage",
+    "train-only normalization",
+    "all analytical labels",
+    "all-body equilibrium",
+    "test IDs and inputs",
+    "recomputed mean R2",
+    "checkpoint inference reload"
+  ]
+}

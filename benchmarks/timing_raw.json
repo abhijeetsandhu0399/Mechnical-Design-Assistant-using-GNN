@@ -1,0 +1,5402 @@
+[
+  {
+    "batch_size": 1,
+    "repeat": 0,
+    "method": "mlp_model_only",
+    "ms": 1.5601
+  },
+  {
+    "batch_size": 1,
+    "repeat": 0,
+    "method": "mlp_end_to_end",
+    "ms": 2.3108
+  },
+  {
+    "batch_size": 1,
+    "repeat": 0,
+    "method": "gnn_model_only",
+    "ms": 2.7259
+  },
+  {
+    "batch_size": 1,
+    "repeat": 0,
+    "method": "analytical_end_to_end",
+    "ms": 0.3887
+  },
+  {
+    "batch_size": 1,
+    "repeat": 0,
+    "method": "gnn_end_to_end",
+    "ms": 15.9084
+  },
+  {
+    "batch_size": 1,
+    "repeat": 1,
+    "method": "analytical_end_to_end",
+    "ms": 0.426
+  },
+  {
+    "batch_size": 1,
+    "repeat": 1,
+    "method": "mlp_end_to_end",
+    "ms": 1.8946
+  },
+  {
+    "batch_size": 1,
+    "repeat": 1,
+    "method": "gnn_end_to_end",
+    "ms": 13.5794
+  },
+  {
+    "batch_size": 1,
+    "repeat": 1,
+    "method": "gnn_model_only",
+    "ms": 2.4772
+  },
+  {
+    "batch_size": 1,
+    "repeat": 1,
+    "method": "mlp_model_only",
+    "ms": 1.2284
+  },
+  {
+    "batch_size": 1,
+    "repeat": 2,
+    "method": "mlp_end_to_end",
+    "ms": 1.2932
+  },
+  {
+    "batch_size": 1,
+    "repeat": 2,
+    "method": "gnn_end_to_end",
+    "ms": 12.006
+  },
+  {
+    "batch_size": 1,
+    "repeat": 2,
+    "method": "mlp_model_only",
+    "ms": 1.2082
+  },
+  {
+    "batch_size": 1,
+    "repeat": 2,
+    "method": "gnn_model_only",
+    "ms": 2.6623
+  },
+  {
+    "batch_size": 1,
+    "repeat": 2,
+    "method": "analytical_end_to_end",
+    "ms": 0.4675
+  },
+  {
+    "batch_size": 1,
+    "repeat": 3,
+    "method": "analytical_end_to_end",
+    "ms": 0.295
+  },
+  {
+    "batch_size": 1,
+    "repeat": 3,
+    "method": "mlp_model_only",
+    "ms": 1.5283
+  },
+  {
+    "batch_size": 1,
+    "repeat": 3,
+    "method": "gnn_model_only",
+    "ms": 2.3216
+  },
+  {
+    "batch_size": 1,
+    "repeat": 3,
+    "method": "mlp_end_to_end",
+    "ms": 1.5739
+  },
+  {
+    "batch_size": 1,
+    "repeat": 3,
+    "method": "gnn_end_to_end",
+    "ms": 20.568
+  },
+  {
+    "batch_size": 1,
+    "repeat": 4,
+    "method": "mlp_model_only",
+    "ms": 1.2995
+  },
+  {
+    "batch_size": 1,
+    "repeat": 4,
+    "method": "gnn_model_only",
+    "ms": 2.288
+  },
+  {
+    "batch_size": 1,
+    "repeat": 4,
+    "method": "analytical_end_to_end",
+    "ms": 0.2569
+  },
+  {
+    "batch_size": 1,
+    "repeat": 4,
+    "method": "mlp_end_to_end",
+    "ms": 1.1788
+  },
+  {
+    "batch_size": 1,
+    "repeat": 4,
+    "method": "gnn_end_to_end",
+    "ms": 13.7454
+  },
+  {
+    "batch_size": 1,
+    "repeat": 5,
+    "method": "gnn_end_to_end",
+    "ms": 12.9
+  },
+  {
+    "batch_size": 1,
+    "repeat": 5,
+    "method": "mlp_model_only",
+    "ms": 1.3713
+  },
+  {
+    "batch_size": 1,
+    "repeat": 5,
+    "method": "mlp_end_to_end",
+    "ms": 0.9674
+  },
+  {
+    "batch_size": 1,
+    "repeat": 5,
+    "method": "analytical_end_to_end",
+    "ms": 0.3404
+  },
+  {
+    "batch_size": 1,
+    "repeat": 5,
+    "method": "gnn_model_only",
+    "ms": 2.0807
+  },
+  {
+    "batch_size": 1,
+    "repeat": 6,
+    "method": "mlp_model_only",
+    "ms": 0.9134
+  },
+  {
+    "batch_size": 1,
+    "repeat": 6,
+    "method": "mlp_end_to_end",
+    "ms": 1.1438
+  },
+  {
+    "batch_size": 1,
+    "repeat": 6,
+    "method": "gnn_end_to_end",
+    "ms": 15.1765
+  },
+  {
+    "batch_size": 1,
+    "repeat": 6,
+    "method": "analytical_end_to_end",
+    "ms": 0.3758
+  },
+  {
+    "batch_size": 1,
+    "repeat": 6,
+    "method": "gnn_model_only",
+    "ms": 2.8822
+  },
+  {
+    "batch_size": 1,
+    "repeat": 7,
+    "method": "gnn_model_only",
+    "ms": 2.1946
+  },
+  {
+    "batch_size": 1,
+    "repeat": 7,
+    "method": "analytical_end_to_end",
+    "ms": 0.3592
+  },
+  {
+    "batch_size": 1,
+    "repeat": 7,
+    "method": "mlp_end_to_end",
+    "ms": 1.2425
+  },
+  {
+    "batch_size": 1,
+    "repeat": 7,
+    "method": "mlp_model_only",
+    "ms": 1.1191
+  },
+  {
+    "batch_size": 1,
+    "repeat": 7,
+    "method": "gnn_end_to_end",
+    "ms": 13.242
+  },
+  {
+    "batch_size": 1,
+    "repeat": 8,
+    "method": "gnn_model_only",
+    "ms": 2.794
+  },
+  {
+    "batch_size": 1,
+    "repeat": 8,
+    "method": "mlp_model_only",
+    "ms": 1.5774
+  },
+  {
+    "batch_size": 1,
+    "repeat": 8,
+    "method": "analytical_end_to_end",
+    "ms": 0.3328
+  },
+  {
+    "batch_size": 1,
+    "repeat": 8,
+    "method": "gnn_end_to_end",
+    "ms": 13.2238
+  },
+  {
+    "batch_size": 1,
+    "repeat": 8,
+    "method": "mlp_end_to_end",
+    "ms": 1.0953
+  },
+  {
+    "batch_size": 1,
+    "repeat": 9,
+    "method": "analytical_end_to_end",
+    "ms": 0.2529
+  },
+  {
+    "batch_size": 1,
+    "repeat": 9,
+    "method": "gnn_end_to_end",
+    "ms": 13.7015
+  },
+  {
+    "batch_size": 1,
+    "repeat": 9,
+    "method": "mlp_end_to_end",
+    "ms": 1.8485
+  },
+  {
+    "batch_size": 1,
+    "repeat": 9,
+    "method": "mlp_model_only",
+    "ms": 1.2182
+  },
+  {
+    "batch_size": 1,
+    "repeat": 9,
+    "method": "gnn_model_only",
+    "ms": 2.5765
+  },
+  {
+    "batch_size": 1,
+    "repeat": 10,
+    "method": "gnn_end_to_end",
+    "ms": 14.8793
+  },
+  {
+    "batch_size": 1,
+    "repeat": 10,
+    "method": "gnn_model_only",
+    "ms": 2.5421
+  },
+  {
+    "batch_size": 1,
+    "repeat": 10,
+    "method": "analytical_end_to_end",
+    "ms": 0.3731
+  },
+  {
+    "batch_size": 1,
+    "repeat": 10,
+    "method": "mlp_end_to_end",
+    "ms": 1.3389
+  },
+  {
+    "batch_size": 1,
+    "repeat": 10,
+    "method": "mlp_model_only",
+    "ms": 1.2712
+  },
+  {
+    "batch_size": 1,
+    "repeat": 11,
+    "method": "gnn_model_only",
+    "ms": 2.6932
+  },
+  {
+    "batch_size": 1,
+    "repeat": 11,
+    "method": "analytical_end_to_end",
+    "ms": 0.5368
+  },
+  {
+    "batch_size": 1,
+    "repeat": 11,
+    "method": "mlp_model_only",
+    "ms": 1.6129
+  },
+  {
+    "batch_size": 1,
+    "repeat": 11,
+    "method": "mlp_end_to_end",
+    "ms": 1.4721
+  },
+  {
+    "batch_size": 1,
+    "repeat": 11,
+    "method": "gnn_end_to_end",
+    "ms": 13.0098
+  },
+  {
+    "batch_size": 1,
+    "repeat": 12,
+    "method": "gnn_end_to_end",
+    "ms": 12.4037
+  },
+  {
+    "batch_size": 1,
+    "repeat": 12,
+    "method": "mlp_model_only",
+    "ms": 1.2963
+  },
+  {
+    "batch_size": 1,
+    "repeat": 12,
+    "method": "gnn_model_only",
+    "ms": 2.619
+  },
+  {
+    "batch_size": 1,
+    "repeat": 12,
+    "method": "analytical_end_to_end",
+    "ms": 0.4342
+  },
+  {
+    "batch_size": 1,
+    "repeat": 12,
+    "method": "mlp_end_to_end",
+    "ms": 1.1989
+  },
+  {
+    "batch_size": 1,
+    "repeat": 13,
+    "method": "gnn_end_to_end",
+    "ms": 12.5056
+  },
+  {
+    "batch_size": 1,
+    "repeat": 13,
+    "method": "mlp_end_to_end",
+    "ms": 1.265
+  },
+  {
+    "batch_size": 1,
+    "repeat": 13,
+    "method": "analytical_end_to_end",
+    "ms": 0.2419
+  },
+  {
+    "batch_size": 1,
+    "repeat": 13,
+    "method": "mlp_model_only",
+    "ms": 1.0062
+  },
+  {
+    "batch_size": 1,
+    "repeat": 13,
+    "method": "gnn_model_only",
+    "ms": 2.5553
+  },
+  {
+    "batch_size": 1,
+    "repeat": 14,
+    "method": "gnn_model_only",
+    "ms": 2.1309
+  },
+  {
+    "batch_size": 1,
+    "repeat": 14,
+    "method": "analytical_end_to_end",
+    "ms": 0.3152
+  },
+  {
+    "batch_size": 1,
+    "repeat": 14,
+    "method": "gnn_end_to_end",
+    "ms": 12.0672
+  },
+  {
+    "batch_size": 1,
+    "repeat": 14,
+    "method": "mlp_end_to_end",
+    "ms": 1.3556
+  },
+  {
+    "batch_size": 1,
+    "repeat": 14,
+    "method": "mlp_model_only",
+    "ms": 1.3389
+  },
+  {
+    "batch_size": 1,
+    "repeat": 15,
+    "method": "gnn_model_only",
+    "ms": 2.2887
+  },
+  {
+    "batch_size": 1,
+    "repeat": 15,
+    "method": "gnn_end_to_end",
+    "ms": 12.5021
+  },
+  {
+    "batch_size": 1,
+    "repeat": 15,
+    "method": "mlp_model_only",
+    "ms": 1.1203
+  },
+  {
+    "batch_size": 1,
+    "repeat": 15,
+    "method": "mlp_end_to_end",
+    "ms": 1.1392
+  },
+  {
+    "batch_size": 1,
+    "repeat": 15,
+    "method": "analytical_end_to_end",
+    "ms": 0.4071
+  },
+  {
+    "batch_size": 1,
+    "repeat": 16,
+    "method": "gnn_end_to_end",
+    "ms": 11.938
+  },
+  {
+    "batch_size": 1,
+    "repeat": 16,
+    "method": "mlp_model_only",
+    "ms": 1.2671
+  },
+  {
+    "batch_size": 1,
+    "repeat": 16,
+    "method": "mlp_end_to_end",
+    "ms": 1.1649
+  },
+  {
+    "batch_size": 1,
+    "repeat": 16,
+    "method": "gnn_model_only",
+    "ms": 2.8799
+  },
+  {
+    "batch_size": 1,
+    "repeat": 16,
+    "method": "analytical_end_to_end",
+    "ms": 0.4497
+  },
+  {
+    "batch_size": 1,
+    "repeat": 17,
+    "method": "mlp_end_to_end",
+    "ms": 1.4292
+  },
+  {
+    "batch_size": 1,
+    "repeat": 17,
+    "method": "mlp_model_only",
+    "ms": 1.2448
+  },
+  {
+    "batch_size": 1,
+    "repeat": 17,
+    "method": "analytical_end_to_end",
+    "ms": 0.3388
+  },
+  {
+    "batch_size": 1,
+    "repeat": 17,
+    "method": "gnn_model_only",
+    "ms": 2.695
+  },
+  {
+    "batch_size": 1,
+    "repeat": 17,
+    "method": "gnn_end_to_end",
+    "ms": 11.4031
+  },
+  {
+    "batch_size": 1,
+    "repeat": 18,
+    "method": "gnn_end_to_end",
+    "ms": 14.9097
+  },
+  {
+    "batch_size": 1,
+    "repeat": 18,
+    "method": "mlp_end_to_end",
+    "ms": 1.3637
+  },
+  {
+    "batch_size": 1,
+    "repeat": 18,
+    "method": "mlp_model_only",
+    "ms": 0.8882
+  },
+  {
+    "batch_size": 1,
+    "repeat": 18,
+    "method": "analytical_end_to_end",
+    "ms": 0.2962
+  },
+  {
+    "batch_size": 1,
+    "repeat": 18,
+    "method": "gnn_model_only",
+    "ms": 2.3017
+  },
+  {
+    "batch_size": 1,
+    "repeat": 19,
+    "method": "gnn_end_to_end",
+    "ms": 11.697
+  },
+  {
+    "batch_size": 1,
+    "repeat": 19,
+    "method": "gnn_model_only",
+    "ms": 2.1372
+  },
+  {
+    "batch_size": 1,
+    "repeat": 19,
+    "method": "mlp_end_to_end",
+    "ms": 1.1903
+  },
+  {
+    "batch_size": 1,
+    "repeat": 19,
+    "method": "analytical_end_to_end",
+    "ms": 0.3601
+  },
+  {
+    "batch_size": 1,
+    "repeat": 19,
+    "method": "mlp_model_only",
+    "ms": 1.0969
+  },
+  {
+    "batch_size": 1,
+    "repeat": 20,
+    "method": "mlp_model_only",
+    "ms": 0.8522
+  },
+  {
+    "batch_size": 1,
+    "repeat": 20,
+    "method": "gnn_model_only",
+    "ms": 1.9184
+  },
+  {
+    "batch_size": 1,
+    "repeat": 20,
+    "method": "analytical_end_to_end",
+    "ms": 0.3194
+  },
+  {
+    "batch_size": 1,
+    "repeat": 20,
+    "method": "mlp_end_to_end",
+    "ms": 1.0112
+  },
+  {
+    "batch_size": 1,
+    "repeat": 20,
+    "method": "gnn_end_to_end",
+    "ms": 13.9469
+  },
+  {
+    "batch_size": 1,
+    "repeat": 21,
+    "method": "analytical_end_to_end",
+    "ms": 0.2866
+  },
+  {
+    "batch_size": 1,
+    "repeat": 21,
+    "method": "mlp_model_only",
+    "ms": 1.3464
+  },
+  {
+    "batch_size": 1,
+    "repeat": 21,
+    "method": "mlp_end_to_end",
+    "ms": 0.9144
+  },
+  {
+    "batch_size": 1,
+    "repeat": 21,
+    "method": "gnn_end_to_end",
+    "ms": 9.7768
+  },
+  {
+    "batch_size": 1,
+    "repeat": 21,
+    "method": "gnn_model_only",
+    "ms": 1.988
+  },
+  {
+    "batch_size": 1,
+    "repeat": 22,
+    "method": "analytical_end_to_end",
+    "ms": 0.2728
+  },
+  {
+    "batch_size": 1,
+    "repeat": 22,
+    "method": "mlp_end_to_end",
+    "ms": 1.0843
+  },
+  {
+    "batch_size": 1,
+    "repeat": 22,
+    "method": "gnn_end_to_end",
+    "ms": 12.553
+  },
+  {
+    "batch_size": 1,
+    "repeat": 22,
+    "method": "gnn_model_only",
+    "ms": 2.2263
+  },
+  {
+    "batch_size": 1,
+    "repeat": 22,
+    "method": "mlp_model_only",
+    "ms": 1.2215
+  },
+  {
+    "batch_size": 1,
+    "repeat": 23,
+    "method": "analytical_end_to_end",
+    "ms": 0.3908
+  },
+  {
+    "batch_size": 1,
+    "repeat": 23,
+    "method": "gnn_end_to_end",
+    "ms": 12.9725
+  },
+  {
+    "batch_size": 1,
+    "repeat": 23,
+    "method": "gnn_model_only",
+    "ms": 2.6537
+  },
+  {
+    "batch_size": 1,
+    "repeat": 23,
+    "method": "mlp_end_to_end",
+    "ms": 1.5122
+  },
+  {
+    "batch_size": 1,
+    "repeat": 23,
+    "method": "mlp_model_only",
+    "ms": 0.8906
+  },
+  {
+    "batch_size": 1,
+    "repeat": 24,
+    "method": "mlp_model_only",
+    "ms": 0.8729
+  },
+  {
+    "batch_size": 1,
+    "repeat": 24,
+    "method": "gnn_model_only",
+    "ms": 2.254
+  },
+  {
+    "batch_size": 1,
+    "repeat": 24,
+    "method": "gnn_end_to_end",
+    "ms": 14.7348
+  },
+  {
+    "batch_size": 1,
+    "repeat": 24,
+    "method": "analytical_end_to_end",
+    "ms": 0.3428
+  },
+  {
+    "batch_size": 1,
+    "repeat": 24,
+    "method": "mlp_end_to_end",
+    "ms": 1.5449
+  },
+  {
+    "batch_size": 1,
+    "repeat": 25,
+    "method": "mlp_end_to_end",
+    "ms": 1.2744
+  },
+  {
+    "batch_size": 1,
+    "repeat": 25,
+    "method": "gnn_end_to_end",
+    "ms": 12.2891
+  },
+  {
+    "batch_size": 1,
+    "repeat": 25,
+    "method": "gnn_model_only",
+    "ms": 1.701
+  },
+  {
+    "batch_size": 1,
+    "repeat": 25,
+    "method": "analytical_end_to_end",
+    "ms": 0.3712
+  },
+  {
+    "batch_size": 1,
+    "repeat": 25,
+    "method": "mlp_model_only",
+    "ms": 0.9789
+  },
+  {
+    "batch_size": 1,
+    "repeat": 26,
+    "method": "mlp_end_to_end",
+    "ms": 0.8318
+  },
+  {
+    "batch_size": 1,
+    "repeat": 26,
+    "method": "gnn_model_only",
+    "ms": 2.252
+  },
+  {
+    "batch_size": 1,
+    "repeat": 26,
+    "method": "mlp_model_only",
+    "ms": 1.0897
+  },
+  {
+    "batch_size": 1,
+    "repeat": 26,
+    "method": "analytical_end_to_end",
+    "ms": 0.2549
+  },
+  {
+    "batch_size": 1,
+    "repeat": 26,
+    "method": "gnn_end_to_end",
+    "ms": 9.7707
+  },
+  {
+    "batch_size": 1,
+    "repeat": 27,
+    "method": "mlp_end_to_end",
+    "ms": 1.1812
+  },
+  {
+    "batch_size": 1,
+    "repeat": 27,
+    "method": "gnn_model_only",
+    "ms": 1.9117
+  },
+  {
+    "batch_size": 1,
+    "repeat": 27,
+    "method": "analytical_end_to_end",
+    "ms": 0.3278
+  },
+  {
+    "batch_size": 1,
+    "repeat": 27,
+    "method": "gnn_end_to_end",
+    "ms": 11.6207
+  },
+  {
+    "batch_size": 1,
+    "repeat": 27,
+    "method": "mlp_model_only",
+    "ms": 0.9239
+  },
+  {
+    "batch_size": 1,
+    "repeat": 28,
+    "method": "mlp_model_only",
+    "ms": 0.8183
+  },
+  {
+    "batch_size": 1,
+    "repeat": 28,
+    "method": "gnn_model_only",
+    "ms": 2.0754
+  },
+  {
+    "batch_size": 1,
+    "repeat": 28,
+    "method": "mlp_end_to_end",
+    "ms": 1.4419
+  },
+  {
+    "batch_size": 1,
+    "repeat": 28,
+    "method": "analytical_end_to_end",
+    "ms": 0.2382
+  },
+  {
+    "batch_size": 1,
+    "repeat": 28,
+    "method": "gnn_end_to_end",
+    "ms": 12.2746
+  },
+  {
+    "batch_size": 1,
+    "repeat": 29,
+    "method": "analytical_end_to_end",
+    "ms": 0.3565
+  },
+  {
+    "batch_size": 1,
+    "repeat": 29,
+    "method": "gnn_end_to_end",
+    "ms": 34.1134
+  },
+  {
+    "batch_size": 1,
+    "repeat": 29,
+    "method": "mlp_end_to_end",
+    "ms": 1.7718
+  },
+  {
+    "batch_size": 1,
+    "repeat": 29,
+    "method": "gnn_model_only",
+    "ms": 2.795
+  },
+  {
+    "batch_size": 1,
+    "repeat": 29,
+    "method": "mlp_model_only",
+    "ms": 1.5371
+  },
+  {
+    "batch_size": 1,
+    "repeat": 30,
+    "method": "mlp_model_only",
+    "ms": 1.2163
+  },
+  {
+    "batch_size": 1,
+    "repeat": 30,
+    "method": "gnn_end_to_end",
+    "ms": 22.674
+  },
+  {
+    "batch_size": 1,
+    "repeat": 30,
+    "method": "mlp_end_to_end",
+    "ms": 1.687
+  },
+  {
+    "batch_size": 1,
+    "repeat": 30,
+    "method": "gnn_model_only",
+    "ms": 3.4144
+  },
+  {
+    "batch_size": 1,
+    "repeat": 30,
+    "method": "analytical_end_to_end",
+    "ms": 0.7057
+  },
+  {
+    "batch_size": 1,
+    "repeat": 31,
+    "method": "gnn_end_to_end",
+    "ms": 14.9659
+  },
+  {
+    "batch_size": 1,
+    "repeat": 31,
+    "method": "gnn_model_only",
+    "ms": 3.158
+  },
+  {
+    "batch_size": 1,
+    "repeat": 31,
+    "method": "analytical_end_to_end",
+    "ms": 0.2958
+  },
+  {
+    "batch_size": 1,
+    "repeat": 31,
+    "method": "mlp_end_to_end",
+    "ms": 1.2163
+  },
+  {
+    "batch_size": 1,
+    "repeat": 31,
+    "method": "mlp_model_only",
+    "ms": 1.022
+  },
+  {
+    "batch_size": 1,
+    "repeat": 32,
+    "method": "gnn_model_only",
+    "ms": 2.8433
+  },
+  {
+    "batch_size": 1,
+    "repeat": 32,
+    "method": "mlp_model_only",
+    "ms": 1.5725
+  },
+  {
+    "batch_size": 1,
+    "repeat": 32,
+    "method": "mlp_end_to_end",
+    "ms": 1.36
+  },
+  {
+    "batch_size": 1,
+    "repeat": 32,
+    "method": "analytical_end_to_end",
+    "ms": 0.4604
+  },
+  {
+    "batch_size": 1,
+    "repeat": 32,
+    "method": "gnn_end_to_end",
+    "ms": 15.2926
+  },
+  {
+    "batch_size": 1,
+    "repeat": 33,
+    "method": "mlp_end_to_end",
+    "ms": 1.7791
+  },
+  {
+    "batch_size": 1,
+    "repeat": 33,
+    "method": "analytical_end_to_end",
+    "ms": 0.3146
+  },
+  {
+    "batch_size": 1,
+    "repeat": 33,
+    "method": "gnn_end_to_end",
+    "ms": 14.4866
+  },
+  {
+    "batch_size": 1,
+    "repeat": 33,
+    "method": "mlp_model_only",
+    "ms": 1.7104
+  },
+  {
+    "batch_size": 1,
+    "repeat": 33,
+    "method": "gnn_model_only",
+    "ms": 2.434
+  },
+  {
+    "batch_size": 1,
+    "repeat": 34,
+    "method": "gnn_end_to_end",
+    "ms": 14.2597
+  },
+  {
+    "batch_size": 1,
+    "repeat": 34,
+    "method": "analytical_end_to_end",
+    "ms": 0.3545
+  },
+  {
+    "batch_size": 1,
+    "repeat": 34,
+    "method": "mlp_end_to_end",
+    "ms": 1.6303
+  },
+  {
+    "batch_size": 1,
+    "repeat": 34,
+    "method": "gnn_model_only",
+    "ms": 2.5093
+  },
+  {
+    "batch_size": 1,
+    "repeat": 34,
+    "method": "mlp_model_only",
+    "ms": 1.7781
+  },
+  {
+    "batch_size": 1,
+    "repeat": 35,
+    "method": "analytical_end_to_end",
+    "ms": 0.4821
+  },
+  {
+    "batch_size": 1,
+    "repeat": 35,
+    "method": "gnn_model_only",
+    "ms": 2.6521
+  },
+  {
+    "batch_size": 1,
+    "repeat": 35,
+    "method": "mlp_end_to_end",
+    "ms": 1.3639
+  },
+  {
+    "batch_size": 1,
+    "repeat": 35,
+    "method": "gnn_end_to_end",
+    "ms": 16.7669
+  },
+  {
+    "batch_size": 1,
+    "repeat": 35,
+    "method": "mlp_model_only",
+    "ms": 1.4599
+  },
+  {
+    "batch_size": 1,
+    "repeat": 36,
+    "method": "gnn_end_to_end",
+    "ms": 14.745
+  },
+  {
+    "batch_size": 1,
+    "repeat": 36,
+    "method": "gnn_model_only",
+    "ms": 2.1856
+  },
+  {
+    "batch_size": 1,
+    "repeat": 36,
+    "method": "analytical_end_to_end",
+    "ms": 0.3973
+  },
+  {
+    "batch_size": 1,
+    "repeat": 36,
+    "method": "mlp_end_to_end",
+    "ms": 1.5651
+  },
+  {
+    "batch_size": 1,
+    "repeat": 36,
+    "method": "mlp_model_only",
+    "ms": 1.2557
+  },
+  {
+    "batch_size": 1,
+    "repeat": 37,
+    "method": "gnn_model_only",
+    "ms": 2.5562
+  },
+  {
+    "batch_size": 1,
+    "repeat": 37,
+    "method": "mlp_model_only",
+    "ms": 1.2164
+  },
+  {
+    "batch_size": 1,
+    "repeat": 37,
+    "method": "mlp_end_to_end",
+    "ms": 1.2731
+  },
+  {
+    "batch_size": 1,
+    "repeat": 37,
+    "method": "gnn_end_to_end",
+    "ms": 15.1231
+  },
+  {
+    "batch_size": 1,
+    "repeat": 37,
+    "method": "analytical_end_to_end",
+    "ms": 0.4746
+  },
+  {
+    "batch_size": 1,
+    "repeat": 38,
+    "method": "gnn_model_only",
+    "ms": 2.8928
+  },
+  {
+    "batch_size": 1,
+    "repeat": 38,
+    "method": "analytical_end_to_end",
+    "ms": 0.3413
+  },
+  {
+    "batch_size": 1,
+    "repeat": 38,
+    "method": "mlp_model_only",
+    "ms": 1.2855
+  },
+  {
+    "batch_size": 1,
+    "repeat": 38,
+    "method": "gnn_end_to_end",
+    "ms": 12.5499
+  },
+  {
+    "batch_size": 1,
+    "repeat": 38,
+    "method": "mlp_end_to_end",
+    "ms": 1.0315
+  },
+  {
+    "batch_size": 1,
+    "repeat": 39,
+    "method": "analytical_end_to_end",
+    "ms": 0.3391
+  },
+  {
+    "batch_size": 1,
+    "repeat": 39,
+    "method": "mlp_end_to_end",
+    "ms": 0.8584
+  },
+  {
+    "batch_size": 1,
+    "repeat": 39,
+    "method": "mlp_model_only",
+    "ms": 0.9584
+  },
+  {
+    "batch_size": 1,
+    "repeat": 39,
+    "method": "gnn_model_only",
+    "ms": 1.95
+  },
+  {
+    "batch_size": 1,
+    "repeat": 39,
+    "method": "gnn_end_to_end",
+    "ms": 12.2244
+  },
+  {
+    "batch_size": 1,
+    "repeat": 40,
+    "method": "analytical_end_to_end",
+    "ms": 0.2233
+  },
+  {
+    "batch_size": 1,
+    "repeat": 40,
+    "method": "mlp_model_only",
+    "ms": 1.0144
+  },
+  {
+    "batch_size": 1,
+    "repeat": 40,
+    "method": "gnn_model_only",
+    "ms": 2.213
+  },
+  {
+    "batch_size": 1,
+    "repeat": 40,
+    "method": "gnn_end_to_end",
+    "ms": 10.8679
+  },
+  {
+    "batch_size": 1,
+    "repeat": 40,
+    "method": "mlp_end_to_end",
+    "ms": 0.9735
+  },
+  {
+    "batch_size": 1,
+    "repeat": 41,
+    "method": "analytical_end_to_end",
+    "ms": 0.2172
+  },
+  {
+    "batch_size": 1,
+    "repeat": 41,
+    "method": "mlp_model_only",
+    "ms": 0.9165
+  },
+  {
+    "batch_size": 1,
+    "repeat": 41,
+    "method": "mlp_end_to_end",
+    "ms": 0.9353
+  },
+  {
+    "batch_size": 1,
+    "repeat": 41,
+    "method": "gnn_model_only",
+    "ms": 2.0299
+  },
+  {
+    "batch_size": 1,
+    "repeat": 41,
+    "method": "gnn_end_to_end",
+    "ms": 13.5596
+  },
+  {
+    "batch_size": 1,
+    "repeat": 42,
+    "method": "gnn_model_only",
+    "ms": 2.3865
+  },
+  {
+    "batch_size": 1,
+    "repeat": 42,
+    "method": "gnn_end_to_end",
+    "ms": 11.2025
+  },
+  {
+    "batch_size": 1,
+    "repeat": 42,
+    "method": "analytical_end_to_end",
+    "ms": 0.3528
+  },
+  {
+    "batch_size": 1,
+    "repeat": 42,
+    "method": "mlp_end_to_end",
+    "ms": 1.3492
+  },
+  {
+    "batch_size": 1,
+    "repeat": 42,
+    "method": "mlp_model_only",
+    "ms": 1.0954
+  },
+  {
+    "batch_size": 1,
+    "repeat": 43,
+    "method": "gnn_model_only",
+    "ms": 2.3483
+  },
+  {
+    "batch_size": 1,
+    "repeat": 43,
+    "method": "mlp_end_to_end",
+    "ms": 1.0473
+  },
+  {
+    "batch_size": 1,
+    "repeat": 43,
+    "method": "gnn_end_to_end",
+    "ms": 9.5504
+  },
+  {
+    "batch_size": 1,
+    "repeat": 43,
+    "method": "analytical_end_to_end",
+    "ms": 0.2339
+  },
+  {
+    "batch_size": 1,
+    "repeat": 43,
+    "method": "mlp_model_only",
+    "ms": 0.9557
+  },
+  {
+    "batch_size": 1,
+    "repeat": 44,
+    "method": "mlp_model_only",
+    "ms": 1.0475
+  },
+  {
+    "batch_size": 1,
+    "repeat": 44,
+    "method": "analytical_end_to_end",
+    "ms": 0.2306
+  },
+  {
+    "batch_size": 1,
+    "repeat": 44,
+    "method": "mlp_end_to_end",
+    "ms": 1.0365
+  },
+  {
+    "batch_size": 1,
+    "repeat": 44,
+    "method": "gnn_end_to_end",
+    "ms": 10.4014
+  },
+  {
+    "batch_size": 1,
+    "repeat": 44,
+    "method": "gnn_model_only",
+    "ms": 2.3391
+  },
+  {
+    "batch_size": 1,
+    "repeat": 45,
+    "method": "mlp_end_to_end",
+    "ms": 1.299
+  },
+  {
+    "batch_size": 1,
+    "repeat": 45,
+    "method": "analytical_end_to_end",
+    "ms": 0.2237
+  },
+  {
+    "batch_size": 1,
+    "repeat": 45,
+    "method": "gnn_end_to_end",
+    "ms": 12.8701
+  },
+  {
+    "batch_size": 1,
+    "repeat": 45,
+    "method": "gnn_model_only",
+    "ms": 1.9606
+  },
+  {
+    "batch_size": 1,
+    "repeat": 45,
+    "method": "mlp_model_only",
+    "ms": 1.1669
+  },
+  {
+    "batch_size": 1,
+    "repeat": 46,
+    "method": "gnn_model_only",
+    "ms": 1.8441
+  },
+  {
+    "batch_size": 1,
+    "repeat": 46,
+    "method": "gnn_end_to_end",
+    "ms": 13.2118
+  },
+  {
+    "batch_size": 1,
+    "repeat": 46,
+    "method": "analytical_end_to_end",
+    "ms": 0.27
+  },
+  {
+    "batch_size": 1,
+    "repeat": 46,
+    "method": "mlp_end_to_end",
+    "ms": 1.5253
+  },
+  {
+    "batch_size": 1,
+    "repeat": 46,
+    "method": "mlp_model_only",
+    "ms": 1.429
+  },
+  {
+    "batch_size": 1,
+    "repeat": 47,
+    "method": "gnn_model_only",
+    "ms": 2.5772
+  },
+  {
+    "batch_size": 1,
+    "repeat": 47,
+    "method": "mlp_end_to_end",
+    "ms": 1.2437
+  },
+  {
+    "batch_size": 1,
+    "repeat": 47,
+    "method": "mlp_model_only",
+    "ms": 1.2037
+  },
+  {
+    "batch_size": 1,
+    "repeat": 47,
+    "method": "gnn_end_to_end",
+    "ms": 15.4283
+  },
+  {
+    "batch_size": 1,
+    "repeat": 47,
+    "method": "analytical_end_to_end",
+    "ms": 0.2713
+  },
+  {
+    "batch_size": 1,
+    "repeat": 48,
+    "method": "gnn_end_to_end",
+    "ms": 13.0153
+  },
+  {
+    "batch_size": 1,
+    "repeat": 48,
+    "method": "mlp_model_only",
+    "ms": 1.7516
+  },
+  {
+    "batch_size": 1,
+    "repeat": 48,
+    "method": "gnn_model_only",
+    "ms": 3.0701
+  },
+  {
+    "batch_size": 1,
+    "repeat": 48,
+    "method": "mlp_end_to_end",
+    "ms": 1.6277
+  },
+  {
+    "batch_size": 1,
+    "repeat": 48,
+    "method": "analytical_end_to_end",
+    "ms": 0.3545
+  },
+  {
+    "batch_size": 1,
+    "repeat": 49,
+    "method": "analytical_end_to_end",
+    "ms": 0.2627
+  },
+  {
+    "batch_size": 1,
+    "repeat": 49,
+    "method": "gnn_end_to_end",
+    "ms": 14.9901
+  },
+  {
+    "batch_size": 1,
+    "repeat": 49,
+    "method": "mlp_model_only",
+    "ms": 1.3331
+  },
+  {
+    "batch_size": 1,
+    "repeat": 49,
+    "method": "gnn_model_only",
+    "ms": 2.5468
+  },
+  {
+    "batch_size": 1,
+    "repeat": 49,
+    "method": "mlp_end_to_end",
+    "ms": 1.2018
+  },
+  {
+    "batch_size": 1,
+    "repeat": 50,
+    "method": "analytical_end_to_end",
+    "ms": 0.3539
+  },
+  {
+    "batch_size": 1,
+    "repeat": 50,
+    "method": "mlp_end_to_end",
+    "ms": 1.59
+  },
+  {
+    "batch_size": 1,
+    "repeat": 50,
+    "method": "gnn_end_to_end",
+    "ms": 14.1845
+  },
+  {
+    "batch_size": 1,
+    "repeat": 50,
+    "method": "gnn_model_only",
+    "ms": 2.8238
+  },
+  {
+    "batch_size": 1,
+    "repeat": 50,
+    "method": "mlp_model_only",
+    "ms": 1.3885
+  },
+  {
+    "batch_size": 1,
+    "repeat": 51,
+    "method": "gnn_end_to_end",
+    "ms": 15.6944
+  },
+  {
+    "batch_size": 1,
+    "repeat": 51,
+    "method": "analytical_end_to_end",
+    "ms": 0.3427
+  },
+  {
+    "batch_size": 1,
+    "repeat": 51,
+    "method": "gnn_model_only",
+    "ms": 3.3137
+  },
+  {
+    "batch_size": 1,
+    "repeat": 51,
+    "method": "mlp_end_to_end",
+    "ms": 1.3851
+  },
+  {
+    "batch_size": 1,
+    "repeat": 51,
+    "method": "mlp_model_only",
+    "ms": 0.9383
+  },
+  {
+    "batch_size": 1,
+    "repeat": 52,
+    "method": "mlp_end_to_end",
+    "ms": 0.9542
+  },
+  {
+    "batch_size": 1,
+    "repeat": 52,
+    "method": "gnn_model_only",
+    "ms": 1.9334
+  },
+  {
+    "batch_size": 1,
+    "repeat": 52,
+    "method": "analytical_end_to_end",
+    "ms": 0.3656
+  },
+  {
+    "batch_size": 1,
+    "repeat": 52,
+    "method": "mlp_model_only",
+    "ms": 1.3254
+  },
+  {
+    "batch_size": 1,
+    "repeat": 52,
+    "method": "gnn_end_to_end",
+    "ms": 14.0341
+  },
+  {
+    "batch_size": 1,
+    "repeat": 53,
+    "method": "gnn_model_only",
+    "ms": 2.0119
+  },
+  {
+    "batch_size": 1,
+    "repeat": 53,
+    "method": "mlp_model_only",
+    "ms": 1.1547
+  },
+  {
+    "batch_size": 1,
+    "repeat": 53,
+    "method": "gnn_end_to_end",
+    "ms": 12.7648
+  },
+  {
+    "batch_size": 1,
+    "repeat": 53,
+    "method": "analytical_end_to_end",
+    "ms": 0.3831
+  },
+  {
+    "batch_size": 1,
+    "repeat": 53,
+    "method": "mlp_end_to_end",
+    "ms": 1.3236
+  },
+  {
+    "batch_size": 1,
+    "repeat": 54,
+    "method": "gnn_model_only",
+    "ms": 2.5707
+  },
+  {
+    "batch_size": 1,
+    "repeat": 54,
+    "method": "gnn_end_to_end",
+    "ms": 11.9869
+  },
+  {
+    "batch_size": 1,
+    "repeat": 54,
+    "method": "mlp_model_only",
+    "ms": 1.2474
+  },
+  {
+    "batch_size": 1,
+    "repeat": 54,
+    "method": "mlp_end_to_end",
+    "ms": 1.0795
+  },
+  {
+    "batch_size": 1,
+    "repeat": 54,
+    "method": "analytical_end_to_end",
+    "ms": 0.2507
+  },
+  {
+    "batch_size": 1,
+    "repeat": 55,
+    "method": "gnn_end_to_end",
+    "ms": 10.8813
+  },
+  {
+    "batch_size": 1,
+    "repeat": 55,
+    "method": "gnn_model_only",
+    "ms": 2.3649
+  },
+  {
+    "batch_size": 1,
+    "repeat": 55,
+    "method": "mlp_model_only",
+    "ms": 1.2305
+  },
+  {
+    "batch_size": 1,
+    "repeat": 55,
+    "method": "analytical_end_to_end",
+    "ms": 0.3577
+  },
+  {
+    "batch_size": 1,
+    "repeat": 55,
+    "method": "mlp_end_to_end",
+    "ms": 1.3104
+  },
+  {
+    "batch_size": 1,
+    "repeat": 56,
+    "method": "gnn_model_only",
+    "ms": 2.4393
+  },
+  {
+    "batch_size": 1,
+    "repeat": 56,
+    "method": "mlp_end_to_end",
+    "ms": 1.4022
+  },
+  {
+    "batch_size": 1,
+    "repeat": 56,
+    "method": "mlp_model_only",
+    "ms": 1.7007
+  },
+  {
+    "batch_size": 1,
+    "repeat": 56,
+    "method": "analytical_end_to_end",
+    "ms": 0.4755
+  },
+  {
+    "batch_size": 1,
+    "repeat": 56,
+    "method": "gnn_end_to_end",
+    "ms": 13.2635
+  },
+  {
+    "batch_size": 1,
+    "repeat": 57,
+    "method": "analytical_end_to_end",
+    "ms": 0.3362
+  },
+  {
+    "batch_size": 1,
+    "repeat": 57,
+    "method": "gnn_model_only",
+    "ms": 2.7251
+  },
+  {
+    "batch_size": 1,
+    "repeat": 57,
+    "method": "mlp_model_only",
+    "ms": 1.6476
+  },
+  {
+    "batch_size": 1,
+    "repeat": 57,
+    "method": "gnn_end_to_end",
+    "ms": 11.525
+  },
+  {
+    "batch_size": 1,
+    "repeat": 57,
+    "method": "mlp_end_to_end",
+    "ms": 1.2716
+  },
+  {
+    "batch_size": 1,
+    "repeat": 58,
+    "method": "analytical_end_to_end",
+    "ms": 0.4787
+  },
+  {
+    "batch_size": 1,
+    "repeat": 58,
+    "method": "mlp_end_to_end",
+    "ms": 1.7399
+  },
+  {
+    "batch_size": 1,
+    "repeat": 58,
+    "method": "mlp_model_only",
+    "ms": 1.3711
+  },
+  {
+    "batch_size": 1,
+    "repeat": 58,
+    "method": "gnn_end_to_end",
+    "ms": 15.133
+  },
+  {
+    "batch_size": 1,
+    "repeat": 58,
+    "method": "gnn_model_only",
+    "ms": 2.4201
+  },
+  {
+    "batch_size": 1,
+    "repeat": 59,
+    "method": "gnn_end_to_end",
+    "ms": 16.5006
+  },
+  {
+    "batch_size": 1,
+    "repeat": 59,
+    "method": "mlp_end_to_end",
+    "ms": 1.9177
+  },
+  {
+    "batch_size": 1,
+    "repeat": 59,
+    "method": "gnn_model_only",
+    "ms": 2.7465
+  },
+  {
+    "batch_size": 1,
+    "repeat": 59,
+    "method": "analytical_end_to_end",
+    "ms": 0.2617
+  },
+  {
+    "batch_size": 1,
+    "repeat": 59,
+    "method": "mlp_model_only",
+    "ms": 0.9023
+  },
+  {
+    "batch_size": 256,
+    "repeat": 0,
+    "method": "gnn_end_to_end",
+    "ms": 15.4931
+  },
+  {
+    "batch_size": 256,
+    "repeat": 0,
+    "method": "analytical_end_to_end",
+    "ms": 0.2625
+  },
+  {
+    "batch_size": 256,
+    "repeat": 0,
+    "method": "gnn_model_only",
+    "ms": 6.7713
+  },
+  {
+    "batch_size": 256,
+    "repeat": 0,
+    "method": "mlp_model_only",
+    "ms": 1.8784
+  },
+  {
+    "batch_size": 256,
+    "repeat": 0,
+    "method": "mlp_end_to_end",
+    "ms": 1.6304
+  },
+  {
+    "batch_size": 256,
+    "repeat": 1,
+    "method": "gnn_model_only",
+    "ms": 6.0722
+  },
+  {
+    "batch_size": 256,
+    "repeat": 1,
+    "method": "analytical_end_to_end",
+    "ms": 0.2447
+  },
+  {
+    "batch_size": 256,
+    "repeat": 1,
+    "method": "gnn_end_to_end",
+    "ms": 14.0139
+  },
+  {
+    "batch_size": 256,
+    "repeat": 1,
+    "method": "mlp_end_to_end",
+    "ms": 1.7738
+  },
+  {
+    "batch_size": 256,
+    "repeat": 1,
+    "method": "mlp_model_only",
+    "ms": 1.5623
+  },
+  {
+    "batch_size": 256,
+    "repeat": 2,
+    "method": "gnn_model_only",
+    "ms": 7.6302
+  },
+  {
+    "batch_size": 256,
+    "repeat": 2,
+    "method": "mlp_end_to_end",
+    "ms": 1.7657
+  },
+  {
+    "batch_size": 256,
+    "repeat": 2,
+    "method": "analytical_end_to_end",
+    "ms": 0.3806
+  },
+  {
+    "batch_size": 256,
+    "repeat": 2,
+    "method": "mlp_model_only",
+    "ms": 1.7663
+  },
+  {
+    "batch_size": 256,
+    "repeat": 2,
+    "method": "gnn_end_to_end",
+    "ms": 13.7459
+  },
+  {
+    "batch_size": 256,
+    "repeat": 3,
+    "method": "mlp_model_only",
+    "ms": 1.9741
+  },
+  {
+    "batch_size": 256,
+    "repeat": 3,
+    "method": "gnn_model_only",
+    "ms": 7.2568
+  },
+  {
+    "batch_size": 256,
+    "repeat": 3,
+    "method": "analytical_end_to_end",
+    "ms": 0.2642
+  },
+  {
+    "batch_size": 256,
+    "repeat": 3,
+    "method": "mlp_end_to_end",
+    "ms": 1.744
+  },
+  {
+    "batch_size": 256,
+    "repeat": 3,
+    "method": "gnn_end_to_end",
+    "ms": 13.0153
+  },
+  {
+    "batch_size": 256,
+    "repeat": 4,
+    "method": "mlp_end_to_end",
+    "ms": 1.475
+  },
+  {
+    "batch_size": 256,
+    "repeat": 4,
+    "method": "analytical_end_to_end",
+    "ms": 0.2206
+  },
+  {
+    "batch_size": 256,
+    "repeat": 4,
+    "method": "gnn_model_only",
+    "ms": 7.3272
+  },
+  {
+    "batch_size": 256,
+    "repeat": 4,
+    "method": "gnn_end_to_end",
+    "ms": 16.2879
+  },
+  {
+    "batch_size": 256,
+    "repeat": 4,
+    "method": "mlp_model_only",
+    "ms": 1.9306
+  },
+  {
+    "batch_size": 256,
+    "repeat": 5,
+    "method": "mlp_model_only",
+    "ms": 1.4025
+  },
+  {
+    "batch_size": 256,
+    "repeat": 5,
+    "method": "mlp_end_to_end",
+    "ms": 1.5319
+  },
+  {
+    "batch_size": 256,
+    "repeat": 5,
+    "method": "gnn_end_to_end",
+    "ms": 14.9902
+  },
+  {
+    "batch_size": 256,
+    "repeat": 5,
+    "method": "gnn_model_only",
+    "ms": 6.6081
+  },
+  {
+    "batch_size": 256,
+    "repeat": 5,
+    "method": "analytical_end_to_end",
+    "ms": 0.3085
+  },
+  {
+    "batch_size": 256,
+    "repeat": 6,
+    "method": "analytical_end_to_end",
+    "ms": 0.1767
+  },
+  {
+    "batch_size": 256,
+    "repeat": 6,
+    "method": "mlp_end_to_end",
+    "ms": 1.8841
+  },
+  {
+    "batch_size": 256,
+    "repeat": 6,
+    "method": "mlp_model_only",
+    "ms": 1.3718
+  },
+  {
+    "batch_size": 256,
+    "repeat": 6,
+    "method": "gnn_model_only",
+    "ms": 6.7472
+  },
+  {
+    "batch_size": 256,
+    "repeat": 6,
+    "method": "gnn_end_to_end",
+    "ms": 15.8702
+  },
+  {
+    "batch_size": 256,
+    "repeat": 7,
+    "method": "gnn_model_only",
+    "ms": 6.9207
+  },
+  {
+    "batch_size": 256,
+    "repeat": 7,
+    "method": "gnn_end_to_end",
+    "ms": 13.5945
+  },
+  {
+    "batch_size": 256,
+    "repeat": 7,
+    "method": "mlp_model_only",
+    "ms": 1.5958
+  },
+  {
+    "batch_size": 256,
+    "repeat": 7,
+    "method": "analytical_end_to_end",
+    "ms": 0.3083
+  },
+  {
+    "batch_size": 256,
+    "repeat": 7,
+    "method": "mlp_end_to_end",
+    "ms": 1.2558
+  },
+  {
+    "batch_size": 256,
+    "repeat": 8,
+    "method": "gnn_end_to_end",
+    "ms": 13.2609
+  },
+  {
+    "batch_size": 256,
+    "repeat": 8,
+    "method": "analytical_end_to_end",
+    "ms": 0.2653
+  },
+  {
+    "batch_size": 256,
+    "repeat": 8,
+    "method": "mlp_model_only",
+    "ms": 1.5159
+  },
+  {
+    "batch_size": 256,
+    "repeat": 8,
+    "method": "gnn_model_only",
+    "ms": 6.6805
+  },
+  {
+    "batch_size": 256,
+    "repeat": 8,
+    "method": "mlp_end_to_end",
+    "ms": 1.7068
+  },
+  {
+    "batch_size": 256,
+    "repeat": 9,
+    "method": "mlp_model_only",
+    "ms": 1.1276
+  },
+  {
+    "batch_size": 256,
+    "repeat": 9,
+    "method": "gnn_model_only",
+    "ms": 5.9639
+  },
+  {
+    "batch_size": 256,
+    "repeat": 9,
+    "method": "gnn_end_to_end",
+    "ms": 15.205
+  },
+  {
+    "batch_size": 256,
+    "repeat": 9,
+    "method": "analytical_end_to_end",
+    "ms": 0.3196
+  },
+  {
+    "batch_size": 256,
+    "repeat": 9,
+    "method": "mlp_end_to_end",
+    "ms": 1.6681
+  },
+  {
+    "batch_size": 256,
+    "repeat": 10,
+    "method": "gnn_model_only",
+    "ms": 6.4723
+  },
+  {
+    "batch_size": 256,
+    "repeat": 10,
+    "method": "mlp_end_to_end",
+    "ms": 1.8229
+  },
+  {
+    "batch_size": 256,
+    "repeat": 10,
+    "method": "gnn_end_to_end",
+    "ms": 16.2623
+  },
+  {
+    "batch_size": 256,
+    "repeat": 10,
+    "method": "analytical_end_to_end",
+    "ms": 0.2677
+  },
+  {
+    "batch_size": 256,
+    "repeat": 10,
+    "method": "mlp_model_only",
+    "ms": 1.788
+  },
+  {
+    "batch_size": 256,
+    "repeat": 11,
+    "method": "analytical_end_to_end",
+    "ms": 0.2204
+  },
+  {
+    "batch_size": 256,
+    "repeat": 11,
+    "method": "mlp_model_only",
+    "ms": 1.8692
+  },
+  {
+    "batch_size": 256,
+    "repeat": 11,
+    "method": "gnn_model_only",
+    "ms": 6.9847
+  },
+  {
+    "batch_size": 256,
+    "repeat": 11,
+    "method": "mlp_end_to_end",
+    "ms": 2.3486
+  },
+  {
+    "batch_size": 256,
+    "repeat": 11,
+    "method": "gnn_end_to_end",
+    "ms": 14.3668
+  },
+  {
+    "batch_size": 256,
+    "repeat": 12,
+    "method": "mlp_model_only",
+    "ms": 1.6641
+  },
+  {
+    "batch_size": 256,
+    "repeat": 12,
+    "method": "mlp_end_to_end",
+    "ms": 2.2789
+  },
+  {
+    "batch_size": 256,
+    "repeat": 12,
+    "method": "gnn_end_to_end",
+    "ms": 15.3595
+  },
+  {
+    "batch_size": 256,
+    "repeat": 12,
+    "method": "analytical_end_to_end",
+    "ms": 0.2664
+  },
+  {
+    "batch_size": 256,
+    "repeat": 12,
+    "method": "gnn_model_only",
+    "ms": 7.076
+  },
+  {
+    "batch_size": 256,
+    "repeat": 13,
+    "method": "mlp_end_to_end",
+    "ms": 1.9013
+  },
+  {
+    "batch_size": 256,
+    "repeat": 13,
+    "method": "mlp_model_only",
+    "ms": 1.5444
+  },
+  {
+    "batch_size": 256,
+    "repeat": 13,
+    "method": "gnn_end_to_end",
+    "ms": 15.3512
+  },
+  {
+    "batch_size": 256,
+    "repeat": 13,
+    "method": "gnn_model_only",
+    "ms": 6.6789
+  },
+  {
+    "batch_size": 256,
+    "repeat": 13,
+    "method": "analytical_end_to_end",
+    "ms": 0.2548
+  },
+  {
+    "batch_size": 256,
+    "repeat": 14,
+    "method": "gnn_end_to_end",
+    "ms": 13.2256
+  },
+  {
+    "batch_size": 256,
+    "repeat": 14,
+    "method": "gnn_model_only",
+    "ms": 6.1476
+  },
+  {
+    "batch_size": 256,
+    "repeat": 14,
+    "method": "mlp_model_only",
+    "ms": 1.6778
+  },
+  {
+    "batch_size": 256,
+    "repeat": 14,
+    "method": "mlp_end_to_end",
+    "ms": 1.5602
+  },
+  {
+    "batch_size": 256,
+    "repeat": 14,
+    "method": "analytical_end_to_end",
+    "ms": 0.2937
+  },
+  {
+    "batch_size": 256,
+    "repeat": 15,
+    "method": "gnn_model_only",
+    "ms": 7.3682
+  },
+  {
+    "batch_size": 256,
+    "repeat": 15,
+    "method": "analytical_end_to_end",
+    "ms": 0.3307
+  },
+  {
+    "batch_size": 256,
+    "repeat": 15,
+    "method": "gnn_end_to_end",
+    "ms": 14.8938
+  },
+  {
+    "batch_size": 256,
+    "repeat": 15,
+    "method": "mlp_model_only",
+    "ms": 2.0888
+  },
+  {
+    "batch_size": 256,
+    "repeat": 15,
+    "method": "mlp_end_to_end",
+    "ms": 1.7342
+  },
+  {
+    "batch_size": 256,
+    "repeat": 16,
+    "method": "mlp_model_only",
+    "ms": 1.3071
+  },
+  {
+    "batch_size": 256,
+    "repeat": 16,
+    "method": "gnn_model_only",
+    "ms": 6.9957
+  },
+  {
+    "batch_size": 256,
+    "repeat": 16,
+    "method": "mlp_end_to_end",
+    "ms": 1.8185
+  },
+  {
+    "batch_size": 256,
+    "repeat": 16,
+    "method": "gnn_end_to_end",
+    "ms": 15.4725
+  },
+  {
+    "batch_size": 256,
+    "repeat": 16,
+    "method": "analytical_end_to_end",
+    "ms": 0.3073
+  },
+  {
+    "batch_size": 256,
+    "repeat": 17,
+    "method": "gnn_end_to_end",
+    "ms": 15.6615
+  },
+  {
+    "batch_size": 256,
+    "repeat": 17,
+    "method": "mlp_end_to_end",
+    "ms": 1.7069
+  },
+  {
+    "batch_size": 256,
+    "repeat": 17,
+    "method": "mlp_model_only",
+    "ms": 1.4625
+  },
+  {
+    "batch_size": 256,
+    "repeat": 17,
+    "method": "gnn_model_only",
+    "ms": 6.856
+  },
+  {
+    "batch_size": 256,
+    "repeat": 17,
+    "method": "analytical_end_to_end",
+    "ms": 0.3745
+  },
+  {
+    "batch_size": 256,
+    "repeat": 18,
+    "method": "mlp_end_to_end",
+    "ms": 1.8899
+  },
+  {
+    "batch_size": 256,
+    "repeat": 18,
+    "method": "mlp_model_only",
+    "ms": 1.5323
+  },
+  {
+    "batch_size": 256,
+    "repeat": 18,
+    "method": "analytical_end_to_end",
+    "ms": 0.2748
+  },
+  {
+    "batch_size": 256,
+    "repeat": 18,
+    "method": "gnn_end_to_end",
+    "ms": 13.8136
+  },
+  {
+    "batch_size": 256,
+    "repeat": 18,
+    "method": "gnn_model_only",
+    "ms": 7.0498
+  },
+  {
+    "batch_size": 256,
+    "repeat": 19,
+    "method": "gnn_end_to_end",
+    "ms": 14.1363
+  },
+  {
+    "batch_size": 256,
+    "repeat": 19,
+    "method": "gnn_model_only",
+    "ms": 6.5502
+  },
+  {
+    "batch_size": 256,
+    "repeat": 19,
+    "method": "mlp_model_only",
+    "ms": 1.4849
+  },
+  {
+    "batch_size": 256,
+    "repeat": 19,
+    "method": "analytical_end_to_end",
+    "ms": 0.2788
+  },
+  {
+    "batch_size": 256,
+    "repeat": 19,
+    "method": "mlp_end_to_end",
+    "ms": 1.305
+  },
+  {
+    "batch_size": 256,
+    "repeat": 20,
+    "method": "mlp_end_to_end",
+    "ms": 1.4271
+  },
+  {
+    "batch_size": 256,
+    "repeat": 20,
+    "method": "mlp_model_only",
+    "ms": 1.1755
+  },
+  {
+    "batch_size": 256,
+    "repeat": 20,
+    "method": "gnn_model_only",
+    "ms": 6.576
+  },
+  {
+    "batch_size": 256,
+    "repeat": 20,
+    "method": "gnn_end_to_end",
+    "ms": 14.0666
+  },
+  {
+    "batch_size": 256,
+    "repeat": 20,
+    "method": "analytical_end_to_end",
+    "ms": 0.2499
+  },
+  {
+    "batch_size": 256,
+    "repeat": 21,
+    "method": "analytical_end_to_end",
+    "ms": 0.1928
+  },
+  {
+    "batch_size": 256,
+    "repeat": 21,
+    "method": "gnn_model_only",
+    "ms": 5.2593
+  },
+  {
+    "batch_size": 256,
+    "repeat": 21,
+    "method": "mlp_model_only",
+    "ms": 1.7239
+  },
+  {
+    "batch_size": 256,
+    "repeat": 21,
+    "method": "gnn_end_to_end",
+    "ms": 13.6048
+  },
+  {
+    "batch_size": 256,
+    "repeat": 21,
+    "method": "mlp_end_to_end",
+    "ms": 1.7688
+  },
+  {
+    "batch_size": 256,
+    "repeat": 22,
+    "method": "mlp_model_only",
+    "ms": 1.3368
+  },
+  {
+    "batch_size": 256,
+    "repeat": 22,
+    "method": "gnn_model_only",
+    "ms": 6.604
+  },
+  {
+    "batch_size": 256,
+    "repeat": 22,
+    "method": "mlp_end_to_end",
+    "ms": 1.5838
+  },
+  {
+    "batch_size": 256,
+    "repeat": 22,
+    "method": "gnn_end_to_end",
+    "ms": 14.9629
+  },
+  {
+    "batch_size": 256,
+    "repeat": 22,
+    "method": "analytical_end_to_end",
+    "ms": 0.3551
+  },
+  {
+    "batch_size": 256,
+    "repeat": 23,
+    "method": "gnn_model_only",
+    "ms": 6.7273
+  },
+  {
+    "batch_size": 256,
+    "repeat": 23,
+    "method": "mlp_model_only",
+    "ms": 1.8543
+  },
+  {
+    "batch_size": 256,
+    "repeat": 23,
+    "method": "gnn_end_to_end",
+    "ms": 14.2194
+  },
+  {
+    "batch_size": 256,
+    "repeat": 23,
+    "method": "analytical_end_to_end",
+    "ms": 0.3112
+  },
+  {
+    "batch_size": 256,
+    "repeat": 23,
+    "method": "mlp_end_to_end",
+    "ms": 2.7566
+  },
+  {
+    "batch_size": 256,
+    "repeat": 24,
+    "method": "mlp_end_to_end",
+    "ms": 1.8814
+  },
+  {
+    "batch_size": 256,
+    "repeat": 24,
+    "method": "analytical_end_to_end",
+    "ms": 0.266
+  },
+  {
+    "batch_size": 256,
+    "repeat": 24,
+    "method": "gnn_end_to_end",
+    "ms": 14.7406
+  },
+  {
+    "batch_size": 256,
+    "repeat": 24,
+    "method": "mlp_model_only",
+    "ms": 1.9759
+  },
+  {
+    "batch_size": 256,
+    "repeat": 24,
+    "method": "gnn_model_only",
+    "ms": 6.4783
+  },
+  {
+    "batch_size": 256,
+    "repeat": 25,
+    "method": "mlp_model_only",
+    "ms": 1.4827
+  },
+  {
+    "batch_size": 256,
+    "repeat": 25,
+    "method": "analytical_end_to_end",
+    "ms": 0.3
+  },
+  {
+    "batch_size": 256,
+    "repeat": 25,
+    "method": "mlp_end_to_end",
+    "ms": 1.5723
+  },
+  {
+    "batch_size": 256,
+    "repeat": 25,
+    "method": "gnn_model_only",
+    "ms": 6.7728
+  },
+  {
+    "batch_size": 256,
+    "repeat": 25,
+    "method": "gnn_end_to_end",
+    "ms": 13.2954
+  },
+  {
+    "batch_size": 256,
+    "repeat": 26,
+    "method": "analytical_end_to_end",
+    "ms": 0.2606
+  },
+  {
+    "batch_size": 256,
+    "repeat": 26,
+    "method": "gnn_end_to_end",
+    "ms": 14.158
+  },
+  {
+    "batch_size": 256,
+    "repeat": 26,
+    "method": "mlp_end_to_end",
+    "ms": 1.4458
+  },
+  {
+    "batch_size": 256,
+    "repeat": 26,
+    "method": "mlp_model_only",
+    "ms": 1.4527
+  },
+  {
+    "batch_size": 256,
+    "repeat": 26,
+    "method": "gnn_model_only",
+    "ms": 5.8861
+  },
+  {
+    "batch_size": 256,
+    "repeat": 27,
+    "method": "gnn_model_only",
+    "ms": 6.6575
+  },
+  {
+    "batch_size": 256,
+    "repeat": 27,
+    "method": "gnn_end_to_end",
+    "ms": 15.1897
+  },
+  {
+    "batch_size": 256,
+    "repeat": 27,
+    "method": "analytical_end_to_end",
+    "ms": 0.2857
+  },
+  {
+    "batch_size": 256,
+    "repeat": 27,
+    "method": "mlp_model_only",
+    "ms": 1.9717
+  },
+  {
+    "batch_size": 256,
+    "repeat": 27,
+    "method": "mlp_end_to_end",
+    "ms": 1.3236
+  },
+  {
+    "batch_size": 256,
+    "repeat": 28,
+    "method": "mlp_end_to_end",
+    "ms": 1.2089
+  },
+  {
+    "batch_size": 256,
+    "repeat": 28,
+    "method": "gnn_model_only",
+    "ms": 6.5049
+  },
+  {
+    "batch_size": 256,
+    "repeat": 28,
+    "method": "analytical_end_to_end",
+    "ms": 0.3941
+  },
+  {
+    "batch_size": 256,
+    "repeat": 28,
+    "method": "mlp_model_only",
+    "ms": 1.7187
+  },
+  {
+    "batch_size": 256,
+    "repeat": 28,
+    "method": "gnn_end_to_end",
+    "ms": 18.1287
+  },
+  {
+    "batch_size": 256,
+    "repeat": 29,
+    "method": "gnn_end_to_end",
+    "ms": 14.318
+  },
+  {
+    "batch_size": 256,
+    "repeat": 29,
+    "method": "gnn_model_only",
+    "ms": 7.4155
+  },
+  {
+    "batch_size": 256,
+    "repeat": 29,
+    "method": "mlp_model_only",
+    "ms": 1.79
+  },
+  {
+    "batch_size": 256,
+    "repeat": 29,
+    "method": "mlp_end_to_end",
+    "ms": 1.5103
+  },
+  {
+    "batch_size": 256,
+    "repeat": 29,
+    "method": "analytical_end_to_end",
+    "ms": 0.2518
+  },
+  {
+    "batch_size": 256,
+    "repeat": 30,
+    "method": "gnn_end_to_end",
+    "ms": 13.5564
+  },
+  {
+    "batch_size": 256,
+    "repeat": 30,
+    "method": "mlp_end_to_end",
+    "ms": 1.4732
+  },
+  {
+    "batch_size": 256,
+    "repeat": 30,
+    "method": "analytical_end_to_end",
+    "ms": 0.274
+  },
+  {
+    "batch_size": 256,
+    "repeat": 30,
+    "method": "mlp_model_only",
+    "ms": 1.4756
+  },
+  {
+    "batch_size": 256,
+    "repeat": 30,
+    "method": "gnn_model_only",
+    "ms": 6.9408
+  },
+  {
+    "batch_size": 256,
+    "repeat": 31,
+    "method": "gnn_model_only",
+    "ms": 6.8827
+  },
+  {
+    "batch_size": 256,
+    "repeat": 31,
+    "method": "gnn_end_to_end",
+    "ms": 16.8742
+  },
+  {
+    "batch_size": 256,
+    "repeat": 31,
+    "method": "mlp_model_only",
+    "ms": 1.6415
+  },
+  {
+    "batch_size": 256,
+    "repeat": 31,
+    "method": "analytical_end_to_end",
+    "ms": 0.3245
+  },
+  {
+    "batch_size": 256,
+    "repeat": 31,
+    "method": "mlp_end_to_end",
+    "ms": 1.3876
+  },
+  {
+    "batch_size": 256,
+    "repeat": 32,
+    "method": "gnn_end_to_end",
+    "ms": 14.6523
+  },
+  {
+    "batch_size": 256,
+    "repeat": 32,
+    "method": "mlp_end_to_end",
+    "ms": 1.8068
+  },
+  {
+    "batch_size": 256,
+    "repeat": 32,
+    "method": "analytical_end_to_end",
+    "ms": 0.3035
+  },
+  {
+    "batch_size": 256,
+    "repeat": 32,
+    "method": "gnn_model_only",
+    "ms": 7.4008
+  },
+  {
+    "batch_size": 256,
+    "repeat": 32,
+    "method": "mlp_model_only",
+    "ms": 2.1118
+  },
+  {
+    "batch_size": 256,
+    "repeat": 33,
+    "method": "analytical_end_to_end",
+    "ms": 0.3222
+  },
+  {
+    "batch_size": 256,
+    "repeat": 33,
+    "method": "mlp_model_only",
+    "ms": 2.0246
+  },
+  {
+    "batch_size": 256,
+    "repeat": 33,
+    "method": "gnn_model_only",
+    "ms": 9.3132
+  },
+  {
+    "batch_size": 256,
+    "repeat": 33,
+    "method": "mlp_end_to_end",
+    "ms": 1.6922
+  },
+  {
+    "batch_size": 256,
+    "repeat": 33,
+    "method": "gnn_end_to_end",
+    "ms": 14.8554
+  },
+  {
+    "batch_size": 256,
+    "repeat": 34,
+    "method": "mlp_end_to_end",
+    "ms": 1.5279
+  },
+  {
+    "batch_size": 256,
+    "repeat": 34,
+    "method": "gnn_end_to_end",
+    "ms": 13.8465
+  },
+  {
+    "batch_size": 256,
+    "repeat": 34,
+    "method": "analytical_end_to_end",
+    "ms": 0.3005
+  },
+  {
+    "batch_size": 256,
+    "repeat": 34,
+    "method": "gnn_model_only",
+    "ms": 6.8577
+  },
+  {
+    "batch_size": 256,
+    "repeat": 34,
+    "method": "mlp_model_only",
+    "ms": 1.5515
+  },
+  {
+    "batch_size": 256,
+    "repeat": 35,
+    "method": "gnn_end_to_end",
+    "ms": 13.8564
+  },
+  {
+    "batch_size": 256,
+    "repeat": 35,
+    "method": "mlp_model_only",
+    "ms": 1.5979
+  },
+  {
+    "batch_size": 256,
+    "repeat": 35,
+    "method": "analytical_end_to_end",
+    "ms": 0.3036
+  },
+  {
+    "batch_size": 256,
+    "repeat": 35,
+    "method": "gnn_model_only",
+    "ms": 6.5235
+  },
+  {
+    "batch_size": 256,
+    "repeat": 35,
+    "method": "mlp_end_to_end",
+    "ms": 1.5303
+  },
+  {
+    "batch_size": 256,
+    "repeat": 36,
+    "method": "gnn_model_only",
+    "ms": 6.1385
+  },
+  {
+    "batch_size": 256,
+    "repeat": 36,
+    "method": "mlp_model_only",
+    "ms": 1.6658
+  },
+  {
+    "batch_size": 256,
+    "repeat": 36,
+    "method": "analytical_end_to_end",
+    "ms": 0.3071
+  },
+  {
+    "batch_size": 256,
+    "repeat": 36,
+    "method": "mlp_end_to_end",
+    "ms": 1.6599
+  },
+  {
+    "batch_size": 256,
+    "repeat": 36,
+    "method": "gnn_end_to_end",
+    "ms": 13.5921
+  },
+  {
+    "batch_size": 256,
+    "repeat": 37,
+    "method": "analytical_end_to_end",
+    "ms": 0.3017
+  },
+  {
+    "batch_size": 256,
+    "repeat": 37,
+    "method": "gnn_end_to_end",
+    "ms": 15.3297
+  },
+  {
+    "batch_size": 256,
+    "repeat": 37,
+    "method": "mlp_model_only",
+    "ms": 1.5968
+  },
+  {
+    "batch_size": 256,
+    "repeat": 37,
+    "method": "gnn_model_only",
+    "ms": 6.133
+  },
+  {
+    "batch_size": 256,
+    "repeat": 37,
+    "method": "mlp_end_to_end",
+    "ms": 1.4885
+  },
+  {
+    "batch_size": 256,
+    "repeat": 38,
+    "method": "analytical_end_to_end",
+    "ms": 0.3798
+  },
+  {
+    "batch_size": 256,
+    "repeat": 38,
+    "method": "gnn_model_only",
+    "ms": 6.5713
+  },
+  {
+    "batch_size": 256,
+    "repeat": 38,
+    "method": "mlp_model_only",
+    "ms": 1.5418
+  },
+  {
+    "batch_size": 256,
+    "repeat": 38,
+    "method": "mlp_end_to_end",
+    "ms": 2.029
+  },
+  {
+    "batch_size": 256,
+    "repeat": 38,
+    "method": "gnn_end_to_end",
+    "ms": 15.5116
+  },
+  {
+    "batch_size": 256,
+    "repeat": 39,
+    "method": "mlp_end_to_end",
+    "ms": 1.886
+  },
+  {
+    "batch_size": 256,
+    "repeat": 39,
+    "method": "analytical_end_to_end",
+    "ms": 0.2849
+  },
+  {
+    "batch_size": 256,
+    "repeat": 39,
+    "method": "mlp_model_only",
+    "ms": 1.6516
+  },
+  {
+    "batch_size": 256,
+    "repeat": 39,
+    "method": "gnn_end_to_end",
+    "ms": 14.7521
+  },
+  {
+    "batch_size": 256,
+    "repeat": 39,
+    "method": "gnn_model_only",
+    "ms": 6.9671
+  },
+  {
+    "batch_size": 256,
+    "repeat": 40,
+    "method": "mlp_model_only",
+    "ms": 1.8889
+  },
+  {
+    "batch_size": 256,
+    "repeat": 40,
+    "method": "gnn_end_to_end",
+    "ms": 15.0581
+  },
+  {
+    "batch_size": 256,
+    "repeat": 40,
+    "method": "mlp_end_to_end",
+    "ms": 2.0453
+  },
+  {
+    "batch_size": 256,
+    "repeat": 40,
+    "method": "gnn_model_only",
+    "ms": 7.3603
+  },
+  {
+    "batch_size": 256,
+    "repeat": 40,
+    "method": "analytical_end_to_end",
+    "ms": 0.2676
+  },
+  {
+    "batch_size": 256,
+    "repeat": 41,
+    "method": "gnn_model_only",
+    "ms": 6.7979
+  },
+  {
+    "batch_size": 256,
+    "repeat": 41,
+    "method": "analytical_end_to_end",
+    "ms": 0.315
+  },
+  {
+    "batch_size": 256,
+    "repeat": 41,
+    "method": "mlp_end_to_end",
+    "ms": 1.654
+  },
+  {
+    "batch_size": 256,
+    "repeat": 41,
+    "method": "gnn_end_to_end",
+    "ms": 16.2325
+  },
+  {
+    "batch_size": 256,
+    "repeat": 41,
+    "method": "mlp_model_only",
+    "ms": 1.7968
+  },
+  {
+    "batch_size": 256,
+    "repeat": 42,
+    "method": "mlp_end_to_end",
+    "ms": 1.6776
+  },
+  {
+    "batch_size": 256,
+    "repeat": 42,
+    "method": "analytical_end_to_end",
+    "ms": 0.2774
+  },
+  {
+    "batch_size": 256,
+    "repeat": 42,
+    "method": "gnn_model_only",
+    "ms": 6.7205
+  },
+  {
+    "batch_size": 256,
+    "repeat": 42,
+    "method": "mlp_model_only",
+    "ms": 1.72
+  },
+  {
+    "batch_size": 256,
+    "repeat": 42,
+    "method": "gnn_end_to_end",
+    "ms": 14.3498
+  },
+  {
+    "batch_size": 256,
+    "repeat": 43,
+    "method": "gnn_end_to_end",
+    "ms": 13.4342
+  },
+  {
+    "batch_size": 256,
+    "repeat": 43,
+    "method": "gnn_model_only",
+    "ms": 7.3882
+  },
+  {
+    "batch_size": 256,
+    "repeat": 43,
+    "method": "mlp_end_to_end",
+    "ms": 2.154
+  },
+  {
+    "batch_size": 256,
+    "repeat": 43,
+    "method": "analytical_end_to_end",
+    "ms": 0.3945
+  },
+  {
+    "batch_size": 256,
+    "repeat": 43,
+    "method": "mlp_model_only",
+    "ms": 1.4968
+  },
+  {
+    "batch_size": 256,
+    "repeat": 44,
+    "method": "analytical_end_to_end",
+    "ms": 0.2337
+  },
+  {
+    "batch_size": 256,
+    "repeat": 44,
+    "method": "gnn_end_to_end",
+    "ms": 13.4401
+  },
+  {
+    "batch_size": 256,
+    "repeat": 44,
+    "method": "gnn_model_only",
+    "ms": 5.9687
+  },
+  {
+    "batch_size": 256,
+    "repeat": 44,
+    "method": "mlp_model_only",
+    "ms": 1.7068
+  },
+  {
+    "batch_size": 256,
+    "repeat": 44,
+    "method": "mlp_end_to_end",
+    "ms": 1.5108
+  },
+  {
+    "batch_size": 256,
+    "repeat": 45,
+    "method": "analytical_end_to_end",
+    "ms": 0.3054
+  },
+  {
+    "batch_size": 256,
+    "repeat": 45,
+    "method": "mlp_end_to_end",
+    "ms": 1.5411
+  },
+  {
+    "batch_size": 256,
+    "repeat": 45,
+    "method": "mlp_model_only",
+    "ms": 1.4586
+  },
+  {
+    "batch_size": 256,
+    "repeat": 45,
+    "method": "gnn_end_to_end",
+    "ms": 15.008
+  },
+  {
+    "batch_size": 256,
+    "repeat": 45,
+    "method": "gnn_model_only",
+    "ms": 8.5122
+  },
+  {
+    "batch_size": 256,
+    "repeat": 46,
+    "method": "mlp_model_only",
+    "ms": 1.7417
+  },
+  {
+    "batch_size": 256,
+    "repeat": 46,
+    "method": "analytical_end_to_end",
+    "ms": 0.3001
+  },
+  {
+    "batch_size": 256,
+    "repeat": 46,
+    "method": "gnn_model_only",
+    "ms": 6.5877
+  },
+  {
+    "batch_size": 256,
+    "repeat": 46,
+    "method": "gnn_end_to_end",
+    "ms": 13.898
+  },
+  {
+    "batch_size": 256,
+    "repeat": 46,
+    "method": "mlp_end_to_end",
+    "ms": 1.8987
+  },
+  {
+    "batch_size": 256,
+    "repeat": 47,
+    "method": "mlp_model_only",
+    "ms": 1.6406
+  },
+  {
+    "batch_size": 256,
+    "repeat": 47,
+    "method": "gnn_end_to_end",
+    "ms": 13.5794
+  },
+  {
+    "batch_size": 256,
+    "repeat": 47,
+    "method": "gnn_model_only",
+    "ms": 6.4065
+  },
+  {
+    "batch_size": 256,
+    "repeat": 47,
+    "method": "analytical_end_to_end",
+    "ms": 0.2784
+  },
+  {
+    "batch_size": 256,
+    "repeat": 47,
+    "method": "mlp_end_to_end",
+    "ms": 1.7741
+  },
+  {
+    "batch_size": 256,
+    "repeat": 48,
+    "method": "gnn_model_only",
+    "ms": 6.9008
+  },
+  {
+    "batch_size": 256,
+    "repeat": 48,
+    "method": "analytical_end_to_end",
+    "ms": 0.2749
+  },
+  {
+    "batch_size": 256,
+    "repeat": 48,
+    "method": "mlp_model_only",
+    "ms": 1.5111
+  },
+  {
+    "batch_size": 256,
+    "repeat": 48,
+    "method": "gnn_end_to_end",
+    "ms": 15.424
+  },
+  {
+    "batch_size": 256,
+    "repeat": 48,
+    "method": "mlp_end_to_end",
+    "ms": 2.2899
+  },
+  {
+    "batch_size": 256,
+    "repeat": 49,
+    "method": "mlp_end_to_end",
+    "ms": 1.4991
+  },
+  {
+    "batch_size": 256,
+    "repeat": 49,
+    "method": "analytical_end_to_end",
+    "ms": 0.3748
+  },
+  {
+    "batch_size": 256,
+    "repeat": 49,
+    "method": "mlp_model_only",
+    "ms": 1.6395
+  },
+  {
+    "batch_size": 256,
+    "repeat": 49,
+    "method": "gnn_model_only",
+    "ms": 7.1364
+  },
+  {
+    "batch_size": 256,
+    "repeat": 49,
+    "method": "gnn_end_to_end",
+    "ms": 14.0125
+  },
+  {
+    "batch_size": 256,
+    "repeat": 50,
+    "method": "mlp_end_to_end",
+    "ms": 1.7714
+  },
+  {
+    "batch_size": 256,
+    "repeat": 50,
+    "method": "gnn_end_to_end",
+    "ms": 14.0719
+  },
+  {
+    "batch_size": 256,
+    "repeat": 50,
+    "method": "gnn_model_only",
+    "ms": 6.305
+  },
+  {
+    "batch_size": 256,
+    "repeat": 50,
+    "method": "mlp_model_only",
+    "ms": 1.4839
+  },
+  {
+    "batch_size": 256,
+    "repeat": 50,
+    "method": "analytical_end_to_end",
+    "ms": 0.2601
+  },
+  {
+    "batch_size": 256,
+    "repeat": 51,
+    "method": "mlp_end_to_end",
+    "ms": 1.2159
+  },
+  {
+    "batch_size": 256,
+    "repeat": 51,
+    "method": "analytical_end_to_end",
+    "ms": 0.2442
+  },
+  {
+    "batch_size": 256,
+    "repeat": 51,
+    "method": "gnn_model_only",
+    "ms": 5.7189
+  },
+  {
+    "batch_size": 256,
+    "repeat": 51,
+    "method": "gnn_end_to_end",
+    "ms": 12.3628
+  },
+  {
+    "batch_size": 256,
+    "repeat": 51,
+    "method": "mlp_model_only",
+    "ms": 1.5483
+  },
+  {
+    "batch_size": 256,
+    "repeat": 52,
+    "method": "analytical_end_to_end",
+    "ms": 0.2413
+  },
+  {
+    "batch_size": 256,
+    "repeat": 52,
+    "method": "mlp_end_to_end",
+    "ms": 1.6509
+  },
+  {
+    "batch_size": 256,
+    "repeat": 52,
+    "method": "mlp_model_only",
+    "ms": 1.3946
+  },
+  {
+    "batch_size": 256,
+    "repeat": 52,
+    "method": "gnn_end_to_end",
+    "ms": 12.9434
+  },
+  {
+    "batch_size": 256,
+    "repeat": 52,
+    "method": "gnn_model_only",
+    "ms": 6.1795
+  },
+  {
+    "batch_size": 256,
+    "repeat": 53,
+    "method": "mlp_end_to_end",
+    "ms": 1.4389
+  },
+  {
+    "batch_size": 256,
+    "repeat": 53,
+    "method": "mlp_model_only",
+    "ms": 1.3055
+  },
+  {
+    "batch_size": 256,
+    "repeat": 53,
+    "method": "gnn_end_to_end",
+    "ms": 12.3927
+  },
+  {
+    "batch_size": 256,
+    "repeat": 53,
+    "method": "gnn_model_only",
+    "ms": 5.9815
+  },
+  {
+    "batch_size": 256,
+    "repeat": 53,
+    "method": "analytical_end_to_end",
+    "ms": 0.3425
+  },
+  {
+    "batch_size": 256,
+    "repeat": 54,
+    "method": "gnn_model_only",
+    "ms": 6.0745
+  },
+  {
+    "batch_size": 256,
+    "repeat": 54,
+    "method": "gnn_end_to_end",
+    "ms": 14.776
+  },
+  {
+    "batch_size": 256,
+    "repeat": 54,
+    "method": "mlp_end_to_end",
+    "ms": 1.7308
+  },
+  {
+    "batch_size": 256,
+    "repeat": 54,
+    "method": "analytical_end_to_end",
+    "ms": 0.2351
+  },
+  {
+    "batch_size": 256,
+    "repeat": 54,
+    "method": "mlp_model_only",
+    "ms": 1.7538
+  },
+  {
+    "batch_size": 256,
+    "repeat": 55,
+    "method": "analytical_end_to_end",
+    "ms": 0.3156
+  },
+  {
+    "batch_size": 256,
+    "repeat": 55,
+    "method": "gnn_model_only",
+    "ms": 6.4238
+  },
+  {
+    "batch_size": 256,
+    "repeat": 55,
+    "method": "gnn_end_to_end",
+    "ms": 14.1503
+  },
+  {
+    "batch_size": 256,
+    "repeat": 55,
+    "method": "mlp_end_to_end",
+    "ms": 1.7418
+  },
+  {
+    "batch_size": 256,
+    "repeat": 55,
+    "method": "mlp_model_only",
+    "ms": 1.1635
+  },
+  {
+    "batch_size": 256,
+    "repeat": 56,
+    "method": "gnn_model_only",
+    "ms": 6.6253
+  },
+  {
+    "batch_size": 256,
+    "repeat": 56,
+    "method": "gnn_end_to_end",
+    "ms": 14.2671
+  },
+  {
+    "batch_size": 256,
+    "repeat": 56,
+    "method": "analytical_end_to_end",
+    "ms": 0.2558
+  },
+  {
+    "batch_size": 256,
+    "repeat": 56,
+    "method": "mlp_model_only",
+    "ms": 1.4702
+  },
+  {
+    "batch_size": 256,
+    "repeat": 56,
+    "method": "mlp_end_to_end",
+    "ms": 1.6444
+  },
+  {
+    "batch_size": 256,
+    "repeat": 57,
+    "method": "mlp_end_to_end",
+    "ms": 1.4239
+  },
+  {
+    "batch_size": 256,
+    "repeat": 57,
+    "method": "gnn_model_only",
+    "ms": 6.7378
+  },
+  {
+    "batch_size": 256,
+    "repeat": 57,
+    "method": "gnn_end_to_end",
+    "ms": 15.1504
+  },
+  {
+    "batch_size": 256,
+    "repeat": 57,
+    "method": "mlp_model_only",
+    "ms": 1.8551
+  },
+  {
+    "batch_size": 256,
+    "repeat": 57,
+    "method": "analytical_end_to_end",
+    "ms": 0.4251
+  },
+  {
+    "batch_size": 256,
+    "repeat": 58,
+    "method": "gnn_end_to_end",
+    "ms": 14.1641
+  },
+  {
+    "batch_size": 256,
+    "repeat": 58,
+    "method": "gnn_model_only",
+    "ms": 6.202
+  },
+  {
+    "batch_size": 256,
+    "repeat": 58,
+    "method": "analytical_end_to_end",
+    "ms": 0.2943
+  },
+  {
+    "batch_size": 256,
+    "repeat": 58,
+    "method": "mlp_model_only",
+    "ms": 1.4504
+  },
+  {
+    "batch_size": 256,
+    "repeat": 58,
+    "method": "mlp_end_to_end",
+    "ms": 1.3435
+  },
+  {
+    "batch_size": 256,
+    "repeat": 59,
+    "method": "gnn_model_only",
+    "ms": 6.8961
+  },
+  {
+    "batch_size": 256,
+    "repeat": 59,
+    "method": "mlp_end_to_end",
+    "ms": 1.7604
+  },
+  {
+    "batch_size": 256,
+    "repeat": 59,
+    "method": "gnn_end_to_end",
+    "ms": 14.6939
+  },
+  {
+    "batch_size": 256,
+    "repeat": 59,
+    "method": "mlp_model_only",
+    "ms": 1.9343
+  },
+  {
+    "batch_size": 256,
+    "repeat": 59,
+    "method": "analytical_end_to_end",
+    "ms": 0.2659
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 0,
+    "method": "mlp_model_only",
+    "ms": 5.3052
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 0,
+    "method": "gnn_end_to_end",
+    "ms": 71.8692
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 0,
+    "method": "mlp_end_to_end",
+    "ms": 5.8324
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 0,
+    "method": "analytical_end_to_end",
+    "ms": 0.6178
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 0,
+    "method": "gnn_model_only",
+    "ms": 60.4122
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 1,
+    "method": "gnn_end_to_end",
+    "ms": 71.6525
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 1,
+    "method": "mlp_end_to_end",
+    "ms": 5.7997
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 1,
+    "method": "gnn_model_only",
+    "ms": 67.5901
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 1,
+    "method": "mlp_model_only",
+    "ms": 6.1223
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 1,
+    "method": "analytical_end_to_end",
+    "ms": 0.7281
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 2,
+    "method": "gnn_model_only",
+    "ms": 62.5091
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 2,
+    "method": "gnn_end_to_end",
+    "ms": 68.2163
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 2,
+    "method": "mlp_end_to_end",
+    "ms": 6.3935
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 2,
+    "method": "mlp_model_only",
+    "ms": 5.4081
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 2,
+    "method": "analytical_end_to_end",
+    "ms": 0.6369
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 3,
+    "method": "analytical_end_to_end",
+    "ms": 0.5415
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 3,
+    "method": "gnn_model_only",
+    "ms": 62.1963
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 3,
+    "method": "mlp_end_to_end",
+    "ms": 5.3254
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 3,
+    "method": "gnn_end_to_end",
+    "ms": 72.0734
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 3,
+    "method": "mlp_model_only",
+    "ms": 6.6535
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 4,
+    "method": "analytical_end_to_end",
+    "ms": 0.8853
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 4,
+    "method": "mlp_end_to_end",
+    "ms": 5.5215
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 4,
+    "method": "gnn_end_to_end",
+    "ms": 75.8399
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 4,
+    "method": "gnn_model_only",
+    "ms": 62.0499
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 4,
+    "method": "mlp_model_only",
+    "ms": 4.4736
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 5,
+    "method": "gnn_model_only",
+    "ms": 60.9226
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 5,
+    "method": "gnn_end_to_end",
+    "ms": 75.0836
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 5,
+    "method": "mlp_end_to_end",
+    "ms": 5.3271
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 5,
+    "method": "mlp_model_only",
+    "ms": 5.0669
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 5,
+    "method": "analytical_end_to_end",
+    "ms": 0.6703
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 6,
+    "method": "gnn_model_only",
+    "ms": 62.4349
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 6,
+    "method": "analytical_end_to_end",
+    "ms": 0.8131
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 6,
+    "method": "gnn_end_to_end",
+    "ms": 71.2231
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 6,
+    "method": "mlp_model_only",
+    "ms": 5.6833
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 6,
+    "method": "mlp_end_to_end",
+    "ms": 5.0877
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 7,
+    "method": "gnn_model_only",
+    "ms": 60.0853
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 7,
+    "method": "mlp_end_to_end",
+    "ms": 5.8923
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 7,
+    "method": "gnn_end_to_end",
+    "ms": 69.3753
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 7,
+    "method": "analytical_end_to_end",
+    "ms": 0.7883
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 7,
+    "method": "mlp_model_only",
+    "ms": 4.9594
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 8,
+    "method": "gnn_model_only",
+    "ms": 62.4155
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 8,
+    "method": "mlp_end_to_end",
+    "ms": 5.0996
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 8,
+    "method": "analytical_end_to_end",
+    "ms": 0.8486
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 8,
+    "method": "mlp_model_only",
+    "ms": 6.2929
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 8,
+    "method": "gnn_end_to_end",
+    "ms": 74.5774
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 9,
+    "method": "mlp_model_only",
+    "ms": 6.3181
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 9,
+    "method": "mlp_end_to_end",
+    "ms": 5.9836
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 9,
+    "method": "gnn_end_to_end",
+    "ms": 72.8807
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 9,
+    "method": "gnn_model_only",
+    "ms": 59.4485
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 9,
+    "method": "analytical_end_to_end",
+    "ms": 0.6749
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 10,
+    "method": "mlp_model_only",
+    "ms": 5.3029
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 10,
+    "method": "gnn_model_only",
+    "ms": 61.4543
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 10,
+    "method": "analytical_end_to_end",
+    "ms": 0.7869
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 10,
+    "method": "gnn_end_to_end",
+    "ms": 70.8059
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 10,
+    "method": "mlp_end_to_end",
+    "ms": 6.6714
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 11,
+    "method": "gnn_model_only",
+    "ms": 61.4723
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 11,
+    "method": "mlp_model_only",
+    "ms": 7.1556
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 11,
+    "method": "mlp_end_to_end",
+    "ms": 5.6689
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 11,
+    "method": "gnn_end_to_end",
+    "ms": 74.5853
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 11,
+    "method": "analytical_end_to_end",
+    "ms": 1.0188
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 12,
+    "method": "mlp_model_only",
+    "ms": 4.6228
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 12,
+    "method": "mlp_end_to_end",
+    "ms": 4.8413
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 12,
+    "method": "gnn_model_only",
+    "ms": 60.3875
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 12,
+    "method": "gnn_end_to_end",
+    "ms": 76.8915
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 12,
+    "method": "analytical_end_to_end",
+    "ms": 0.6156
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 13,
+    "method": "mlp_end_to_end",
+    "ms": 4.5939
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 13,
+    "method": "analytical_end_to_end",
+    "ms": 0.8313
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 13,
+    "method": "gnn_end_to_end",
+    "ms": 72.9365
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 13,
+    "method": "gnn_model_only",
+    "ms": 63.0412
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 13,
+    "method": "mlp_model_only",
+    "ms": 5.5415
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 14,
+    "method": "mlp_end_to_end",
+    "ms": 5.4995
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 14,
+    "method": "gnn_end_to_end",
+    "ms": 72.5945
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 14,
+    "method": "gnn_model_only",
+    "ms": 62.9184
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 14,
+    "method": "analytical_end_to_end",
+    "ms": 0.7205
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 14,
+    "method": "mlp_model_only",
+    "ms": 5.9521
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 15,
+    "method": "mlp_model_only",
+    "ms": 5.3138
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 15,
+    "method": "gnn_model_only",
+    "ms": 61.7108
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 15,
+    "method": "gnn_end_to_end",
+    "ms": 70.8457
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 15,
+    "method": "analytical_end_to_end",
+    "ms": 0.6127
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 15,
+    "method": "mlp_end_to_end",
+    "ms": 5.1461
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 16,
+    "method": "mlp_end_to_end",
+    "ms": 6.8609
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 16,
+    "method": "mlp_model_only",
+    "ms": 4.9203
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 16,
+    "method": "gnn_end_to_end",
+    "ms": 73.4903
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 16,
+    "method": "analytical_end_to_end",
+    "ms": 0.6654
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 16,
+    "method": "gnn_model_only",
+    "ms": 64.2201
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 17,
+    "method": "analytical_end_to_end",
+    "ms": 0.6716
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 17,
+    "method": "gnn_model_only",
+    "ms": 61.0089
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 17,
+    "method": "mlp_end_to_end",
+    "ms": 5.9406
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 17,
+    "method": "mlp_model_only",
+    "ms": 5.3823
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 17,
+    "method": "gnn_end_to_end",
+    "ms": 70.7327
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 18,
+    "method": "mlp_end_to_end",
+    "ms": 5.5652
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 18,
+    "method": "gnn_model_only",
+    "ms": 60.892
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 18,
+    "method": "mlp_model_only",
+    "ms": 6.243
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 18,
+    "method": "gnn_end_to_end",
+    "ms": 71.7436
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 18,
+    "method": "analytical_end_to_end",
+    "ms": 0.6227
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 19,
+    "method": "analytical_end_to_end",
+    "ms": 0.4525
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 19,
+    "method": "gnn_model_only",
+    "ms": 59.1475
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 19,
+    "method": "mlp_model_only",
+    "ms": 5.9799
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 19,
+    "method": "gnn_end_to_end",
+    "ms": 71.6607
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 19,
+    "method": "mlp_end_to_end",
+    "ms": 7.3834
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 20,
+    "method": "analytical_end_to_end",
+    "ms": 0.5658
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 20,
+    "method": "mlp_model_only",
+    "ms": 5.6757
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 20,
+    "method": "mlp_end_to_end",
+    "ms": 4.5587
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 20,
+    "method": "gnn_end_to_end",
+    "ms": 72.6177
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 20,
+    "method": "gnn_model_only",
+    "ms": 60.7374
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 21,
+    "method": "mlp_end_to_end",
+    "ms": 6.9901
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 21,
+    "method": "mlp_model_only",
+    "ms": 5.6201
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 21,
+    "method": "gnn_end_to_end",
+    "ms": 71.1613
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 21,
+    "method": "gnn_model_only",
+    "ms": 65.8453
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 21,
+    "method": "analytical_end_to_end",
+    "ms": 0.8389
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 22,
+    "method": "gnn_end_to_end",
+    "ms": 72.5506
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 22,
+    "method": "mlp_model_only",
+    "ms": 4.8501
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 22,
+    "method": "gnn_model_only",
+    "ms": 64.6293
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 22,
+    "method": "analytical_end_to_end",
+    "ms": 0.8083
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 22,
+    "method": "mlp_end_to_end",
+    "ms": 6.7591
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 23,
+    "method": "gnn_end_to_end",
+    "ms": 75.4636
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 23,
+    "method": "mlp_model_only",
+    "ms": 7.3904
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 23,
+    "method": "analytical_end_to_end",
+    "ms": 0.9399
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 23,
+    "method": "gnn_model_only",
+    "ms": 64.4179
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 23,
+    "method": "mlp_end_to_end",
+    "ms": 6.6001
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 24,
+    "method": "mlp_end_to_end",
+    "ms": 6.021
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 24,
+    "method": "mlp_model_only",
+    "ms": 5.086
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 24,
+    "method": "gnn_model_only",
+    "ms": 63.5486
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 24,
+    "method": "analytical_end_to_end",
+    "ms": 0.6136
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 24,
+    "method": "gnn_end_to_end",
+    "ms": 72.635
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 25,
+    "method": "gnn_model_only",
+    "ms": 65.8885
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 25,
+    "method": "gnn_end_to_end",
+    "ms": 72.0267
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 25,
+    "method": "analytical_end_to_end",
+    "ms": 0.631
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 25,
+    "method": "mlp_model_only",
+    "ms": 6.5836
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 25,
+    "method": "mlp_end_to_end",
+    "ms": 4.9277
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 26,
+    "method": "gnn_model_only",
+    "ms": 61.3357
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 26,
+    "method": "mlp_end_to_end",
+    "ms": 6.3835
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 26,
+    "method": "analytical_end_to_end",
+    "ms": 0.6628
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 26,
+    "method": "mlp_model_only",
+    "ms": 5.9577
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 26,
+    "method": "gnn_end_to_end",
+    "ms": 73.4455
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 27,
+    "method": "mlp_model_only",
+    "ms": 9.1404
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 27,
+    "method": "gnn_model_only",
+    "ms": 60.5703
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 27,
+    "method": "analytical_end_to_end",
+    "ms": 0.732
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 27,
+    "method": "mlp_end_to_end",
+    "ms": 7.5494
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 27,
+    "method": "gnn_end_to_end",
+    "ms": 69.9858
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 28,
+    "method": "gnn_model_only",
+    "ms": 61.9653
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 28,
+    "method": "analytical_end_to_end",
+    "ms": 0.8813
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 28,
+    "method": "mlp_end_to_end",
+    "ms": 6.221
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 28,
+    "method": "gnn_end_to_end",
+    "ms": 68.0341
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 28,
+    "method": "mlp_model_only",
+    "ms": 5.3591
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 29,
+    "method": "mlp_end_to_end",
+    "ms": 6.6929
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 29,
+    "method": "gnn_end_to_end",
+    "ms": 71.6878
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 29,
+    "method": "gnn_model_only",
+    "ms": 62.271
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 29,
+    "method": "analytical_end_to_end",
+    "ms": 0.6702
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 29,
+    "method": "mlp_model_only",
+    "ms": 5.4473
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 30,
+    "method": "mlp_model_only",
+    "ms": 5.644
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 30,
+    "method": "gnn_end_to_end",
+    "ms": 73.2108
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 30,
+    "method": "analytical_end_to_end",
+    "ms": 0.7877
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 30,
+    "method": "mlp_end_to_end",
+    "ms": 7.983
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 30,
+    "method": "gnn_model_only",
+    "ms": 66.6749
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 31,
+    "method": "analytical_end_to_end",
+    "ms": 0.703
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 31,
+    "method": "gnn_model_only",
+    "ms": 67.5907
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 31,
+    "method": "mlp_model_only",
+    "ms": 5.2841
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 31,
+    "method": "mlp_end_to_end",
+    "ms": 6.7504
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 31,
+    "method": "gnn_end_to_end",
+    "ms": 70.888
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 32,
+    "method": "mlp_model_only",
+    "ms": 6.935
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 32,
+    "method": "mlp_end_to_end",
+    "ms": 6.7506
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 32,
+    "method": "analytical_end_to_end",
+    "ms": 0.7943
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 32,
+    "method": "gnn_model_only",
+    "ms": 61.4552
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 32,
+    "method": "gnn_end_to_end",
+    "ms": 76.4423
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 33,
+    "method": "mlp_end_to_end",
+    "ms": 5.6837
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 33,
+    "method": "analytical_end_to_end",
+    "ms": 0.6756
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 33,
+    "method": "gnn_end_to_end",
+    "ms": 77.5729
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 33,
+    "method": "mlp_model_only",
+    "ms": 6.6233
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 33,
+    "method": "gnn_model_only",
+    "ms": 62.9496
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 34,
+    "method": "gnn_model_only",
+    "ms": 63.5598
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 34,
+    "method": "mlp_model_only",
+    "ms": 6.3443
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 34,
+    "method": "mlp_end_to_end",
+    "ms": 4.9872
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 34,
+    "method": "analytical_end_to_end",
+    "ms": 0.5895
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 34,
+    "method": "gnn_end_to_end",
+    "ms": 74.3562
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 35,
+    "method": "mlp_model_only",
+    "ms": 6.1951
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 35,
+    "method": "gnn_model_only",
+    "ms": 65.7691
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 35,
+    "method": "gnn_end_to_end",
+    "ms": 69.0418
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 35,
+    "method": "mlp_end_to_end",
+    "ms": 4.8907
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 35,
+    "method": "analytical_end_to_end",
+    "ms": 0.6819
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 36,
+    "method": "analytical_end_to_end",
+    "ms": 0.4729
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 36,
+    "method": "mlp_end_to_end",
+    "ms": 6.0345
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 36,
+    "method": "mlp_model_only",
+    "ms": 5.9984
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 36,
+    "method": "gnn_end_to_end",
+    "ms": 81.9466
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 36,
+    "method": "gnn_model_only",
+    "ms": 61.7733
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 37,
+    "method": "gnn_model_only",
+    "ms": 63.8962
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 37,
+    "method": "analytical_end_to_end",
+    "ms": 0.7345
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 37,
+    "method": "mlp_model_only",
+    "ms": 4.6698
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 37,
+    "method": "gnn_end_to_end",
+    "ms": 78.9543
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 37,
+    "method": "mlp_end_to_end",
+    "ms": 5.0342
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 38,
+    "method": "gnn_end_to_end",
+    "ms": 74.3205
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 38,
+    "method": "mlp_model_only",
+    "ms": 6.009
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 38,
+    "method": "analytical_end_to_end",
+    "ms": 0.6923
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 38,
+    "method": "mlp_end_to_end",
+    "ms": 5.289
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 38,
+    "method": "gnn_model_only",
+    "ms": 65.5739
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 39,
+    "method": "gnn_model_only",
+    "ms": 61.9134
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 39,
+    "method": "analytical_end_to_end",
+    "ms": 0.7569
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 39,
+    "method": "mlp_end_to_end",
+    "ms": 6.0757
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 39,
+    "method": "gnn_end_to_end",
+    "ms": 77.9952
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 39,
+    "method": "mlp_model_only",
+    "ms": 5.6812
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 40,
+    "method": "gnn_end_to_end",
+    "ms": 76.5417
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 40,
+    "method": "mlp_model_only",
+    "ms": 6.4381
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 40,
+    "method": "mlp_end_to_end",
+    "ms": 6.0585
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 40,
+    "method": "gnn_model_only",
+    "ms": 64.0598
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 40,
+    "method": "analytical_end_to_end",
+    "ms": 1.0915
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 41,
+    "method": "mlp_end_to_end",
+    "ms": 8.0421
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 41,
+    "method": "gnn_model_only",
+    "ms": 67.8051
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 41,
+    "method": "analytical_end_to_end",
+    "ms": 0.6798
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 41,
+    "method": "gnn_end_to_end",
+    "ms": 71.2615
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 41,
+    "method": "mlp_model_only",
+    "ms": 6.2432
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 42,
+    "method": "analytical_end_to_end",
+    "ms": 0.6308
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 42,
+    "method": "mlp_model_only",
+    "ms": 7.3703
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 42,
+    "method": "gnn_model_only",
+    "ms": 61.8684
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 42,
+    "method": "gnn_end_to_end",
+    "ms": 70.0645
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 42,
+    "method": "mlp_end_to_end",
+    "ms": 5.6049
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 43,
+    "method": "mlp_end_to_end",
+    "ms": 6.1145
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 43,
+    "method": "gnn_end_to_end",
+    "ms": 72.3084
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 43,
+    "method": "gnn_model_only",
+    "ms": 63.9204
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 43,
+    "method": "mlp_model_only",
+    "ms": 6.089
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 43,
+    "method": "analytical_end_to_end",
+    "ms": 0.7311
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 44,
+    "method": "mlp_model_only",
+    "ms": 6.1869
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 44,
+    "method": "gnn_end_to_end",
+    "ms": 71.5287
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 44,
+    "method": "analytical_end_to_end",
+    "ms": 0.5895
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 44,
+    "method": "mlp_end_to_end",
+    "ms": 6.1761
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 44,
+    "method": "gnn_model_only",
+    "ms": 64.905
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 45,
+    "method": "gnn_model_only",
+    "ms": 66.8976
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 45,
+    "method": "analytical_end_to_end",
+    "ms": 0.817
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 45,
+    "method": "mlp_model_only",
+    "ms": 5.5778
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 45,
+    "method": "mlp_end_to_end",
+    "ms": 5.6201
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 45,
+    "method": "gnn_end_to_end",
+    "ms": 73.2426
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 46,
+    "method": "analytical_end_to_end",
+    "ms": 0.792
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 46,
+    "method": "mlp_end_to_end",
+    "ms": 5.9899
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 46,
+    "method": "mlp_model_only",
+    "ms": 5.4391
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 46,
+    "method": "gnn_model_only",
+    "ms": 66.444
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 46,
+    "method": "gnn_end_to_end",
+    "ms": 76.9841
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 47,
+    "method": "mlp_end_to_end",
+    "ms": 6.8702
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 47,
+    "method": "gnn_end_to_end",
+    "ms": 75.9826
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 47,
+    "method": "gnn_model_only",
+    "ms": 62.668
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 47,
+    "method": "analytical_end_to_end",
+    "ms": 0.7279
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 47,
+    "method": "mlp_model_only",
+    "ms": 6.2262
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 48,
+    "method": "analytical_end_to_end",
+    "ms": 0.6348
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 48,
+    "method": "mlp_end_to_end",
+    "ms": 5.8709
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 48,
+    "method": "gnn_model_only",
+    "ms": 63.6746
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 48,
+    "method": "gnn_end_to_end",
+    "ms": 71.4779
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 48,
+    "method": "mlp_model_only",
+    "ms": 5.4226
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 49,
+    "method": "mlp_end_to_end",
+    "ms": 5.7743
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 49,
+    "method": "analytical_end_to_end",
+    "ms": 0.7372
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 49,
+    "method": "mlp_model_only",
+    "ms": 6.3964
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 49,
+    "method": "gnn_end_to_end",
+    "ms": 72.1921
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 49,
+    "method": "gnn_model_only",
+    "ms": 61.5042
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 50,
+    "method": "analytical_end_to_end",
+    "ms": 0.6969
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 50,
+    "method": "gnn_end_to_end",
+    "ms": 70.002
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 50,
+    "method": "mlp_end_to_end",
+    "ms": 8.0289
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 50,
+    "method": "gnn_model_only",
+    "ms": 61.525
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 50,
+    "method": "mlp_model_only",
+    "ms": 5.6038
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 51,
+    "method": "analytical_end_to_end",
+    "ms": 0.8922
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 51,
+    "method": "mlp_model_only",
+    "ms": 5.871
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 51,
+    "method": "mlp_end_to_end",
+    "ms": 6.3358
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 51,
+    "method": "gnn_model_only",
+    "ms": 59.7523
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 51,
+    "method": "gnn_end_to_end",
+    "ms": 72.8976
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 52,
+    "method": "mlp_model_only",
+    "ms": 6.9582
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 52,
+    "method": "analytical_end_to_end",
+    "ms": 1.1899
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 52,
+    "method": "gnn_end_to_end",
+    "ms": 68.0348
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 52,
+    "method": "gnn_model_only",
+    "ms": 63.948
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 52,
+    "method": "mlp_end_to_end",
+    "ms": 6.2604
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 53,
+    "method": "mlp_model_only",
+    "ms": 5.3227
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 53,
+    "method": "gnn_model_only",
+    "ms": 60.893
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 53,
+    "method": "analytical_end_to_end",
+    "ms": 0.7162
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 53,
+    "method": "gnn_end_to_end",
+    "ms": 78.7985
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 53,
+    "method": "mlp_end_to_end",
+    "ms": 4.9686
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 54,
+    "method": "mlp_model_only",
+    "ms": 6.1394
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 54,
+    "method": "gnn_end_to_end",
+    "ms": 82.1253
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 54,
+    "method": "gnn_model_only",
+    "ms": 60.37
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 54,
+    "method": "mlp_end_to_end",
+    "ms": 5.942
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 54,
+    "method": "analytical_end_to_end",
+    "ms": 0.5932
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 55,
+    "method": "gnn_end_to_end",
+    "ms": 74.0682
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 55,
+    "method": "mlp_model_only",
+    "ms": 5.2642
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 55,
+    "method": "analytical_end_to_end",
+    "ms": 0.6981
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 55,
+    "method": "gnn_model_only",
+    "ms": 64.1455
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 55,
+    "method": "mlp_end_to_end",
+    "ms": 5.274
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 56,
+    "method": "gnn_end_to_end",
+    "ms": 70.9395
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 56,
+    "method": "mlp_model_only",
+    "ms": 5.9731
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 56,
+    "method": "gnn_model_only",
+    "ms": 59.2153
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 56,
+    "method": "analytical_end_to_end",
+    "ms": 0.6723
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 56,
+    "method": "mlp_end_to_end",
+    "ms": 6.2122
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 57,
+    "method": "gnn_model_only",
+    "ms": 62.855
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 57,
+    "method": "mlp_model_only",
+    "ms": 6.2928
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 57,
+    "method": "mlp_end_to_end",
+    "ms": 7.2629
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 57,
+    "method": "analytical_end_to_end",
+    "ms": 0.7114
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 57,
+    "method": "gnn_end_to_end",
+    "ms": 70.1394
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 58,
+    "method": "gnn_end_to_end",
+    "ms": 70.2317
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 58,
+    "method": "gnn_model_only",
+    "ms": 65.3055
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 58,
+    "method": "mlp_end_to_end",
+    "ms": 4.9035
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 58,
+    "method": "analytical_end_to_end",
+    "ms": 0.5661
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 58,
+    "method": "mlp_model_only",
+    "ms": 5.3695
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 59,
+    "method": "mlp_end_to_end",
+    "ms": 5.063
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 59,
+    "method": "gnn_end_to_end",
+    "ms": 74.5233
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 59,
+    "method": "gnn_model_only",
+    "ms": 59.2438
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 59,
+    "method": "analytical_end_to_end",
+    "ms": 0.8195
+  },
+  {
+    "batch_size": 3000,
+    "repeat": 59,
+    "method": "mlp_model_only",
+    "ms": 5.8836
+  }
+]

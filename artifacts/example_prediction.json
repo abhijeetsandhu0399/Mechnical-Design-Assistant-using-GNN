@@ -1,0 +1,97 @@
+{
+  "F_D12X": {
+    "predicted": -39.98122862156876,
+    "analytical": -40.0,
+    "unit": "N"
+  },
+  "F_D12Y": {
+    "predicted": -60.21480435259424,
+    "analytical": -60.0,
+    "unit": "N"
+  },
+  "F_D12Z": {
+    "predicted": 30.22637248693844,
+    "analytical": 30.0,
+    "unit": "N"
+  },
+  "M_D12X": {
+    "predicted": 2.996793754468147,
+    "analytical": 3.0,
+    "unit": "N m"
+  },
+  "M_D12Y": {
+    "predicted": -1.9656361144583374,
+    "analytical": -2.0,
+    "unit": "N m"
+  },
+  "M_D12Z": {
+    "predicted": -0.0006879493594169617,
+    "analytical": -0.0,
+    "unit": "N m"
+  },
+  "F_B23X": {
+    "predicted": -40.02489165239319,
+    "analytical": -40.0,
+    "unit": "N"
+  },
+  "F_B23Y": {
+    "predicted": -29.76461674002987,
+    "analytical": -30.0,
+    "unit": "N"
+  },
+  "F_B23Z": {
+    "predicted": 2.9481636982980652,
+    "analytical": 2.5,
+    "unit": "N"
+  },
+  "F_C23X": {
+    "predicted": -0.0006939918384887278,
+    "analytical": 0.0,
+    "unit": "N"
+  },
+  "F_C23Y": {
+    "predicted": -30.19407543042892,
+    "analytical": -30.0,
+    "unit": "N"
+  },
+  "F_C23Z": {
+    "predicted": 27.242432290898257,
+    "analytical": 27.5,
+    "unit": "N"
+  },
+  "M_C2EX": {
+    "predicted": 2.97446166014347,
+    "analytical": 3.0,
+    "unit": "N m"
+  },
+  "F_G3EX": {
+    "predicted": -39.95380348061272,
+    "analytical": -40.0,
+    "unit": "N"
+  },
+  "F_G3EY": {
+    "predicted": -59.776121131155506,
+    "analytical": -60.0,
+    "unit": "N"
+  },
+  "F_G3EZ": {
+    "predicted": 30.274790363963017,
+    "analytical": 30.0,
+    "unit": "N"
+  },
+  "M_G3EX": {
+    "predicted": 4.8372578346022035,
+    "analytical": 4.8,
+    "unit": "N m"
+  },
+  "M_G3EY": {
+    "predicted": -7.640464329229679,
+    "analytical": -7.6000000000000005,
+    "unit": "N m"
+  },
+  "M_G3EZ": {
+    "predicted": -4.771924047759886,
+    "analytical": -4.8,
+    "unit": "N m"
+  }
+}

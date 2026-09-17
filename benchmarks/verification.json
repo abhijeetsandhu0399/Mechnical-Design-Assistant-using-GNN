@@ -1,0 +1,5 @@
+{
+  "status": "passed",
+  "gnn_all_test_reload_max_difference": 8.942071335837909e-05,
+  "mlp_checkpoints_reloaded": 3
+}
