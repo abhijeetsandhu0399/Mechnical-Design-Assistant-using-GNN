@@ -2,7 +2,7 @@
 
 A TensorFlow graph neural network for predicting forces and moments in a tooth wheel, shaft, and bearing-support assembly. The project combines analytical equilibrium, synthetic data generation, graph regression, and reproducible model evaluation.
 
-**30,000 synthetic cases | 19 outputs | 86,547 GNN parameters | 7 unit tests**
+**30,000 synthetic cases | 19 outputs | 86,547 GNN parameters | 8 unit tests**
 
 [Graph schema](SCHEMA.md) | [GNN results](artifacts/RESULTS.md) | [Benchmark data](benchmarks/comparison.json)
 
@@ -57,6 +57,8 @@ Require `0 < d < L` and `r > 0`. Convert millimetres to metres. The command prin
 
 The shaft follows the x-axis. Body 1 is the tooth wheel, body 2 the shaft, body 3 the support, and E the environment.
 
+Force and moment subscripts follow **point of action, destination body, source body**. Thus `F_D12` is the force at D **on wheel 1 from shaft 2**, and `F_A1E` is the applied force at A **on wheel 1 from environment E**. The corresponding graph arrows are `2 -> 1` and `E -> 1`. Cartesian vector direction is specified separately by the X/Y/Z components. Both the interaction diagram and assembly drawing are included in [SCHEMA.md](SCHEMA.md).
+
 | Point | Coordinates | Role |
 |---|---|---|
 | B | (0, 0, 0) | Locating bearing |
@@ -64,6 +66,8 @@ The shaft follows the x-axis. Body 1 is the tooth wheel, body 2 the shaft, body 
 | C | (L, 0, 0) | Floating bearing |
 | A | (d, 0, r) | Applied-force location |
 | G | (0, 0, gz) | Support/environment connection |
+
+In the assembly drawing, `X_ab = d`, `X_bc = L`, `X_c = L - d`, and `Z_a = r`. The code's `R_cx` is the full coordinate `L`, not the drawing's D-to-C distance `X_c`.
 
 B carries three force components; C carries radial y/z forces, with `F_C23X = 0`. Neither bearing carries a reaction couple. An external drive/brake torque balances shaft torsion. The support connection G transmits force and moment.
 
